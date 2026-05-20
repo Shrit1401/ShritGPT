@@ -1,0 +1,1680 @@
+# Shrit's Newsletter
+building cool stuff
+
+Source: https://shrit.substack.com/archive
+Posts: 36
+
+================================================================================
+
+## Mess Food Sucks, Mcdonald's doesn't
+Date: 2026-04-19T18:58:20.969Z
+URL: https://shrit.substack.com/p/mess-food-sucks-mcdonalds-doesnt
+
+yoyo bro two weeks i was gone so much hapeend buahahaha
+i am sorry i am using my voice + AI again so it might soundy Ai AI but bro i am busy ok
+Hackathon Victory
+got another hackathon win
+and this one felt big
+i genuinely did not expect us to win because there were around 500 teams and competition is getting scary now. coding alone is not an edge anymore. everyone is building apps, websites, full products. what used to feel like an x factor is kind of normal now.
+so we had to go one level above that.
+we used the mental health during disasters idea we have already been working on and pushed it hard for the hackathon. added stuff like NFC cards, explored watch integration, built the app, built the whole flow, and somehow pulled off a lot in 24 hours.
+one of the judges basically looked at everything and was like bro, did you actually make all this in 24 hours
+that part felt good.
+also this win felt lighter than usual because for once i was with people who could actually code well, so i was not carrying the whole thing alone like it usually happens in some hackathons. that changes everything. when everyone can build, you actually get to make better stuff instead of just trying to survive till submission.
+i was supposed to go to more hackathons this sem but honestly i got lazy and also had work, so i skipped a lot of them. still, ending the semester’s hackathon run with a win feels nice.
+big reminder though
+the bar is rising fast. building is easy now. everyone is shipping.
+so from here, the real game is finding better x factors, better taste, better execution.
+also one funny thing a judge mentioned they might be able to offer me an internship because of how well we built everything. i was basically like yeah sounds great as long as you pay me
+nothing concrete yet though. let’s see where that goes.
+Me & Research LMAo
+another weird thing i have been thinking about
+i want to do research in a field i actually like
+which is honestly funny because i hate studying from the bottom of my heart. my end sem exams are in two weeks and i already know i do not want to study for them. so the idea that i am now getting pulled towards research feels kind of stupid and kind of perfect at the same time
+because it is not the same thing in my head
+this feels intentional
+i think i genuinely want to research in this field because it gives me space to try out the crazy experiments i keep thinking about. maybe some of those ideas can actually turn into something real. maybe college can even fund some of it. and that part feels exciting.
+so yeah, i still hate the normal study grind
+but research feels different
+less like studying because i have to more like building weird things because i want to
+idk how this goes yet but i want to see where it leads
+CEO Aging
+i finally went to a professor and asked if i could work under them for research
+and they were open to it
+so now i have kind of landed in a really interesting project. i probably should not say too much yet because it is still early and i do not know what all i am allowed to share, but the core idea is around stress and aging.
+basically the research looks at how intense stress can visibly affect people over time. one example they are looking at is founders or CEOs after investigations, where stress gets so high that it can actually start showing on their face. so the idea is to study before and after images and see how much visible aging or stress markers show up.
+which is honestly very interesting to me.
+right now my part is less glamorous and more messy data work. i got the names, forms, timelines, investigation periods, all that. but the real problem is getting the images. that is the hardest part by far.
+because it is not just about collecting random photos. you need the right before image. the right after image. enough consistency to make it useful. and half the time you do not even know whether those images exist in a usable form.
+so training anything on top of that gets hard very fast.
+the research is happening with a university in australia, and i am working on it with one more person. still very early, still confusing in parts, but it is fun. it feels like the kind of work where the problem itself is messy enough to make it exciting.
+so yeah
+i went looking for research and instantly got dropped into a problem where even finding the data properly is a challenge
+which probably means i am in the right place
+Shunya
+website
+one more big update
+i am starting a finance agency with someone new
+funniest part is i do not know shit about finance lol
+this started through mentorEdge, which was the internship i was doing. the guy i was working with is deep into finance and wants to build an agency around it. he understands the finance side. i understand how to build and implement things. so the split is kind of obvious.
+from what i understand, he works on finance models and my job is to code the implementation properly and make it clear that it is not just theory, it actually works. which is nice because coding that part is the easiest piece for me.
+the harder part is everything around it
+outreach getting clients finding the right people building something that is not just smart, but sellable
+and honestly outreach is brutal. i have done enough of it to know that you can message 200 people and still get almost nothing back. so right now a lot of the real work is there. because if we do not get clients, none of the rest matters.
+one interesting thing is that college has weirdly helped here. over time i have built a decent mental list of people who are actually ambitious and can stick with hard work. that matters a lot because outreach is the kind of job where most people quit fast. i want people who can keep going even when nobody replies.
+right now it is not really an agency in the full sense. it is still very founder dependent. if i leave, things slow down. if the finance guy leaves, the whole thing probably collapses. that is not a real system yet. that is basically a one man show with support around it.
+so i do not know yet if this becomes something serious or stays small
+but i do not mind playing this out because the implementation side is easy for me, and if the work grows, i can always hire someone and branch it out instead of trying to do everything myself. at this point i care more about quality than just stacking more random work.
+we also made the website. the positioning is solid, the ideas are interesting, and now it is mostly a game of whether we can turn that into actual business.
+Paper Site
+another thing i worked on was paper
+paper started as a lightweight app where i was basically showing papers around mixap papers. but the problem was obvious. nsem papers are already easy to find. so if everyone can access them, then why would anyone come to my site?
+so i had to find an x factor.
+that is when i built a simple rag feature into it.
+for non ai people, the basic idea is this:
+i turned all the papers into embeddings so the system could actually retrieve relevant information instead of just dumping files. then with models like gemini, it became possible to ask proper questions on top of the paper set.
+so now instead of just reading papers manually, you can do things like:
+find common questions from the last five years
+spot repeated topics
+ask questions across all the papers
+get actual useful patterns from the data
+which made the whole thing way more interesting than just another paper website.
+at one point i thought maybe this could actually make money too, so i added a paid piece around it. and somehow i got around 10 customers, which was honestly kind of crazy.
+but then reality happened.
+this semester was overloaded.
+i was doing too many things at once.
+i still had to study.
+and my cg was not good enough for me to completely ignore academics either.
+so even though i have a lot of the stuff ready, deployed changes, payment portal, working flow, i still have not pushed it properly the way i wanted.
+right now i am still confused about the go to market side more than the product side.
+how do i market it
+how do i position it
+do i just put it out there and let whoever wants it buy it
+or do i actually build a proper push around it
+i do not fully know yet.
+but i know there is something here.
+so maybe this semester paper was more like version one
+and next semester i make it much much better
+because the idea is solid
+the x factor is real
+and i think it can become something actually useful if i give it the attention it deserves
+Attention
+i want to take a step back for a second
+because the last two weeks have genuinely made me go what the fuck
+a lot of the things happening right now are the exact kind of things i used to imagine when i was writing those letters to myself back in 11th and 12th. starting an agency. getting into research. finding ambitious people who actually want to build something with their life. back then these felt so far away that they almost sounded fictional.
+and now somehow i am inside them
+that part hits me hard
+because if the version of me from back then could see this, he would be proud as hell. and that gives me a very different kind of confidence. not fake confidence. not motivational quote confidence. real confidence. the kind that comes from knowing i actually became someone my past self would respect.
+and i think that matters a lot to me.
+i do want money. i know that. but more than money, i want freedom.
+money just gives me the freedom to try more things, build more things, test more insane ideas, and not have to ask for permission every time i want to move. that is probably what i want most. not status. not fame. just enough freedom to keep doing interesting work on my own terms.
+and at the same time, even with all of this, i know we are still at the beginning.
+there is still a lot left to do. a lot left to earn. a lot left to build. we are still nowhere close.
+and weirdly that excites me more than it scares me.
+because i remember a time when i genuinely could not see anything ahead. when everything felt blocked. when people around me were against what i wanted. when i could not tell if i was doing the right thing or just ruining my life in slow motion. especially before college, everything felt foggy.
+now it does not feel like that.
+now i can actually see a future. i can see paths. i can see things i want to build next. i can see what happens if i keep going.
+and i think one reason for that is i learned to grab opportunities whenever they show up. not all of them are good. some are useless. some are distractions. but i would still rather take my shot than sit around waiting for the perfect thing to arrive.
+that mindset changed a lot for me.
+also the people around me matter more than i admit sometimes. being around people who are building hard things, thinking big, moving with energy, trying crazy ideas, it changes your own standard without you even noticing. and because of that, i have worked so much in the last couple of weeks without it even feeling forced.
+that is probably the biggest sign i am moving in the right direction.
+because i am working on things that feel like home.
+cool ideas cool designs cool frameworks cool problems
+it does not feel like some external pressure. it feels like this is just what i am supposed to be doing.
+and yeah, i still hate studying. that has not changed.
+but i hate being lazy even more.
+that is the bigger thing. i can tolerate hard work. i cannot tolerate wasting my own potential.
+and one more thing that meant way more to me than it probably should have
+farza followed me.
+i pointed out a bug, he followed me on twitter, and i was genuinely so happy that night. like stupid happy. enough to revive my dead twitter and start posting again. it sounds small from outside, maybe it is small, but for me it felt like a push at the exact right time. a tiny signal from someone i respect a lot that i was not invisible.
+maybe he forgot already. maybe it meant nothing to him.
+but it meant something to me.
+it gave me energy again. it made me want to build harder. it reminded me that the distance between me and the people i look up to is not some impossible fantasy. it is real. it can be crossed.
+so yeah
+i think this whole phase has just reminded me of one thing
+i really like building i really like working on hard things and i want a life where i get to keep doing that
+that is it
+everything else is extra
+also i’ll be busy we exams so there’s that maybe next few u won’t see me
+it’s fine i’ll be back with more shit heheh
+
+================================================================================
+
+## HAHAHA Hackathon go Brrrrrr
+Date: 2026-03-29T15:09:49.606Z
+URL: https://shrit.substack.com/p/hahaha-hackathon-go-brrrrrr
+
+yoyoyoyo i am back after another week of break lol
+but yep crazy shit which i wanna tell y’all
+Another Hackathon
+alright so there was another hackathon in my college and i thought why not give it a shot
+people were saying there is a lot of politics in this one and yeah that turned out to be true but whatever
+we got knocked out in the first round but honestly we learned a lot
+like proper understanding of how traffic works in systems and got hands on with tools like grafana prometheus and loki and why they are actually used
+also explored some ml stuff like isolation forest lstm and autoencoders not super deep but enough to know where they fit and how to use them
+we built a small app too this time it was actually real time unlike the last hackathon so data was continuously updating on the dashboard which was pretty cool to see
+overall didn’t win but had fun and learned a lot which matters more anyway
+and
+a year ago in my newsletter i was just writing about how i need a community people around me something to push me
+now actually being in hackathons it hits different
+that pressure that moment when things break and you are like shit this has to work the constant noise in your head to fix build ship
+it feels real it feels alive
+i don’t really care if we win or not but just getting to build what we want in that environment feels crazy good
+a year ago i didn’t even have this
+now i do and honestly i’m just grateful i get to learn all this and be in it
+me with claude at 3am lol
+Ashneer Grover
+apart from that i got to see Ashneer Grover speak at a conclave in college
+and it made me think a lot
+i have seen so many founders, most of them are very money driven like success = money
+and i get it that is what i want too
+but sacrificing relationships friendships all of that for it i don’t know if that’s right
+i keep thinking about it a lot
+because yeah you can make a lot of money but if you don’t have good people around you then what’s the point
+at the same time i can’t just chill either i literally can’t even watch a full movie without thinking i should be building something
+it’s kind of a curse but also something i accept now
+i built this mindset over time and honestly i feel better with it
+Updated My Website
+also i updated my website like i usually do every year
+i’m not really happy with the work page though the slider feels off so i’ll probably redo that later
+but overall i like how it turned out it’s mostly the same just a bit more refined
+check it out it’s pretty cool
+OpenEnv Hackathon
+next month i have like 2 to 3 hackathons lined up
+one of them is a pretty big one by Scaler and it’s based around OpenEnv Module for RL (reinforcement learning)
+i really want to at least clear round one and ideally win it since it’s at a much bigger scale
+even though i haven’t won anything yet i still want to go all in on this one
+they shared a full course around it and i went through it learned a lot about rl envs training models gym gymnasium and all that
+also these hackathons made me realize my MacBook is getting pushed hard 8gb ram is just not enough anymore
+Kaggle Hackathon
+All right, so I might go a little technical here because it’s so fun.
+so there’s this hackathon on Kaggle and the problem is actually insane
+current ai models just exploit familiar data and patterns so the goal is how do we evaluate them in a way that forces real thinking
+i went through a paper from Google DeepMind on tracking agi progress and it got me thinking about what actually makes intelligence
+so instead of going too broad i focused on something small attention learning resources and self awareness
+i split my approach into two phases and documented everything
+phase one is building benchmarks to test if models can maintain selective attention even with structured noise basically can they pick what matters in messy data
+phase two is extending that to see if models can recognize when they are failing under disruption
+phase one is almost done i just need to fix some issues with the benchmarks
+honestly most of my time went into building the dataset like 50 percent plus because that’s probably the most important part
+i also ran experiments with different noise levels and plotted graphs to see how performance changes and now i’m around that first proper benchmark curve stage
+it’s a crazy competitive space but i’m just doing it because the problem itself is too fun to ignore
+Study
+academically my mid sems were going on
+i did decent but honestly slightly below average overall
+a few subjects like mechanical need serious work so i’ll have to push hard there and try to clutch it later
+it’s a bit tough managing this with all the hackathons but i’ve decided i have to give time every night to study
+otherwise i’ll just end up being good at hackathons and bad academically which i don’t want
+so yeah this is something i’m starting from today
+Money Mindset
+alright so something i’ve been thinking a lot about lately is the whole money mindset
+i was talking to a cousin who’s already making money through projects just by leveraging his friends and network and i was like why am i not doing this
+i knew about it but i just wasn’t acting on it
+then i remembered how parents usually say don’t focus on money right now just study and play it safe
+and i get it they just want you to be happy and avoid risk which works for most people
+but i don’t think i fall in that category
+i’ve been building since 7th and since 10th or 11th i’ve had this thing in my head that i want to do something big
+but then i asked myself what even is success for me and i realized i didn’t have a clear answer
+that messed with me
+so i thought about it and the best way i can define it is a mix of two things how much i enjoy life and how much money i have
+if you go all in on fun you’ll have no money and if you go all in on money you’ll have no life
+so it’s about balance but it’s never really 50 50
+it’s more like phases over time you go hard on work now and maybe enjoy later
+for me i think that balance looks something like 70 30 maybe even 90 10
+majority focused on building and ambition and a smaller part on just chilling
+because i literally can’t enjoy too much without feeling like i should be doing something
+and the thing is i don’t even see what i do as work because i actually enjoy it
+i naturally drop things that feel boring unless money is involved
+and yeah if i want to be rich i know it’s not going to happen by just sitting around
+i have to find ways to make money ideally even when i’m not actively working
+that’s how i’m currently thinking about money and success
+and knowing me this perspective might change again in a few months but for now this is where i stand
+yeah lot of long text
+but i’ll see u next week haha byee
+
+================================================================================
+
+## Lost So Bad, Got Humble Again
+Date: 2026-03-16T12:39:10.448Z
+URL: https://shrit.substack.com/p/lost-so-bad-got-humble-again
+
+Hello hello gang, what's up? another week, another story. This time it's so weird. The last week's newsletter I was aura farming; I was saying, "Oh look at this, look at that." Now this week it's all opposite. It's me trying to be real. I really didn't want to make this newsletter because it's so sad but that's the part of it and we just have to do it
+Losing A Hackathon
+Last week’s newsletter was about how I won and how easy that win felt. But this Saturday I went to a 24 hour hackathon and things were very different.
+The theme was about protecting IT services and monitoring networks. I thought it would be simple. I assumed I could reuse a script and maybe win again. But it turned out to be a heavy backend coding hackathon.
+We built the project, even used some ML like Isolation Forest. The project and presentation were good. But I realized later why we lost, and honestly the reason was pretty silly.
+We coded almost everything using Claude. In the previous hackathon we also used AI, but we still understood the code. This time we were using complex things in the backend and I didn’t really understand them myself.
+When the judges asked questions I couldn’t answer properly. I was the only coder in the team so the pressure was on me. The real mistake was simple. I trusted the AI generated code without fully reading or understanding it.
+Everything else was good but that one mistake cost us the win. Losing itself is fine. I don’t mind losing. But this one hurt because the win felt very close.
+This whole month is basically hackathon month, so I will probably attend more. And one thing I am definitely changing is this: never rely blindly on AI code. Every hackathon I lose teaches me something new. I’ll start writing these lessons down as simple points so I can keep them in one place.
+Don’t try to do everything alone and don’t build the same thing everyone else is building. If many teams are doing the same idea, you just become part of the crowd. Try to build something a little more unique.
+If you know the language well, using tools like Cursor or Claude is fine because you still understand the code. But if you are working in an area you are not fully comfortable with, like me using FastAPI for ML models, you should read the AI generated code carefully, understand what it does, and only then use it.
+The idea should stay simple. If the idea becomes too complex, it becomes harder to build and even harder to explain to judges. Simple ideas with clear impact usually work much better.
+And finally, hackathons are way more fun when you go with people who actually know how to code and can build things together. When the team works well, you not only enjoy the hackathon more but you also have a much better chance of winning.
+Apart from all that, the hackathon was really fun. It was hectic and losing felt pretty bad, but it taught me a few things. I realized the small mistakes I should never repeat.
+I honestly get annoyed at myself for these silly mistakes because I know I am capable of winning these hackathons. Sometimes it’s just these small things that stop it from happening.
+From now on I will try to avoid these mistakes, learn from them, and hopefully turn them into wins in the next hackathons.
+Paper Viewer Website
+Also, if you remember, in the last newsletter I mentioned the website I made for first year students to access their midterm papers. It’s still running and the response has been crazy.
+The site got more than 12,000 views, which I didn’t expect at all. Around 80 to 90 percent of the first years in my college ended up using it, and the stats honestly look amazing.
+At the end I just want to say it was a really weird week. It reminded me how strange life is. Nothing always stays up, it goes down too. Just because I won one hackathon doesn’t mean I will win the next one. Winning gives confidence, but life keeps balancing things out.
+You can’t stay at the peak forever. You reach a peak, then you work again and hope the next one is even higher. That’s why staying humble matters. If you’re not, life usually finds a way to humble you anyway.
+I’m still trying to figure out how to improve and what to do better next time. I’m just trying my best. I also wanted to be honest about what’s happening. I hate saying that I lost. I’ve been coding for seven years and still losing sometimes feels bad, but that’s part of the journey and there’s no skipping it.
+Fun
+my exams got over so after hackathon went to friends house, some cool cool photos
+Anyway, that’s it for this short newsletter.
+bye bye
+tatat muha
+Shrit
+
+================================================================================
+
+## Won So Hard, Forgot to study
+Date: 2026-03-07T17:11:49.029Z
+URL: https://shrit.substack.com/p/won-so-hard-forgot-to-study
+
+Hello hello hello. What’s up people, how are you all doing?
+So I have my exam in literally two days… but I still couldn’t stop myself from writing this newsletter. A lot of crazy things happened recently. I’m genuinely excited to share all of it with you.
+Hackathon Win
+Alright, main thing. We won the hackathon.
+If you’ve been reading my previous newsletters, you know I’ve talked about losing hackathons before and learning from them. This time it finally worked out.
+Hearing our name as the winner was honestly crazy. That moment of validation after all the work felt amazing, and it just makes me want to do more hackathons again.
+Apart from that, what we built was actually very simple. One thing I’ve learned from previous hackathons is that you don’t need to build something overly complex. You just need to solve the problem clearly.
+Our project was for disaster management. We built a dashboard where authorities could access important information quickly, along with a Flutter app and a WhatsApp interface for easier communication.
+If you want to see it, I recorded a pretty scuffed demo you can check out. I don’t think I mentioned it in the video, but we also built a WhatsApp bot using Twilio.
+Loom Video
+Judges Impressed
+Also, the judges were actually surprised by what we built. The hackathon was only about six to seven hours, and they kept asking if we really made all of it in that time.
+A big reason it worked was the team. There were three of coders, and everyone knew what they were doing. That made the whole process much easier. We were honestly having fun the whole time, walking around, eating good food, messing around and still managed to finish everything.
+judges even told me he really liked our work and said if there are freelancing opportunities in the future we should connect. He also said if we decide to continue building the project we can reach out to him, which was pretty cool. I will probably explore that more after my exams.
+Paper Website
+Apart from the hackathon, something else cool happened.
+Since my exams are here, I realized there isn’t really a proper website for my college where people can easily find mid sem papers. For end sems there is a site, but nothing organized for mid sems. A senior had already collected a lot of first year papers, so I used that and built a simple website to make everything easy to access.
+I basically got the whole site running from a single prompt and deployed it. A lot of people in college have been using it and sending really nice messages about it, which has been pretty fun to see.
+Vibe Coding
+Let’s talk about something a bit deeper: vibe coding.
+This past month has been wild. I was doing my internship, researching, won a hackathon, and built around 10 to 12 websites. The funny thing is I barely touched the code myself. Maybe less than an hour in total. Most of it was done using tools like Cursor, Cloud Code, and Codex which I got access to through my internship.
+Honestly, it changed how I think about building. Instead of writing everything line by line, I just describe what I want and iterate with the AI. The tools are insanely good now.
+It also makes me wonder about the future. Things like hackathons might look very different in the next three to four years. The bigger question for me is what direction I want to take. Do I want to be a builder or a pure coder?
+If I focus on being a builder, tools like this feel like a huge advantage. But if someone wants to go deep into coding, then areas like infrastructure or DevOps might become more important because those are harder to automate.
+At the same time, AI still needs someone who understands what’s happening. It can generate a lot of code, but it can also generate nonsense. You still need experience to guide it, fix things, and know whether what it wrote actually makes sense.
+So it’s a weird but fascinating shift to watch while it’s happening.
+Apart from Work
+this week holi was also there, if u don’t know about holi google it, but yeah fun outing
+also
+One more fun thing from this month.
+The internship I’ve been doing is actually unpaid, but the founders and people there are amazing. One day they were like, you’ve been working for free, so today it’s on us. Order whatever pizza you want.
+Me and the seniors were thinking maybe it was a test or something, but we just went for it. We ended up ordering pizzas worth around ₹10,000. Proper fancy Italian ones. It was honestly pretty funny.
+Overall, this month has just been really fun. Internship, building things, the hackathon win, meeting cool people. It gave me a nice motivation boost.
+And honestly, if I have to thank someone, it’s myself for just continuing to try things and putting myself out there. I’ll probably keep doing more of that going forward.
+thank for being on this journey with me
+bye ye
+tatat tata
+shrit
+
+================================================================================
+
+## u have to go down to go up, lik a sin graph
+Date: 2026-02-23T18:08:41.265Z
+URL: https://shrit.substack.com/p/u-have-to-go-down-to-go-up-lik-a
+
+Hello hello
+New week.
+Alright. Let’s get into it.
+First of all
+~60 ppl saw the newsletter, idk maybe i look sexy in that photo or title worked
+but it’s crazy numbers from my previous newsletter
+but yeah thanks bro lol
+ps: me before giving presentation about my app
+The Fever
+bro like istg half of the week i had such a crazy fever but still i had to work, it’s sad i couldn’t go gym for like almost a week, but we’re back
+I was so down like for three days, I figured out the yap i was doing in last semester wasn’t because i was working too hard, but my lil bitch ass got cold because of the changing weather
+Hackathon
+(i ai generated this i am lazy)
+Bro this was such a different experience.
+I went to this invite only hackathon that ran for around eight to ten hours by
+CerebralValley.com
+x
+Google DeepMind
+. None of my friends got selected, so I just went alone. I ended up meeting three seniors from my college and formed a team with them on the spot.
+The vibe was insane. There were corporate folks judging and mentoring us. The theme was multilinguality, and we built a small AI powered website for lawyers with multi language support for contracts, mainly for people who struggle to understand legal documents. It was simple, focused, and meaningful.
+We did not win, but listening to the winners genuinely shifted my mindset. Their ideas were so simple yet so powerful. Things like video generation tools, Python based explainers for physics and math, even a transcript tool converting English to Tamil to Telugu. Nothing crazy complicated. Just one clear idea executed really well.
+That day taught me something important. In hackathons your idea does not need to be massive or stuffed with features. It just needs to solve one real problem properly. Simplicity with strong execution wins.
+I actually wrote a thoughtful post about this whole experience on LinkedIn because I have been trying to take it more seriously lately. It ended up getting a good amount of likes, which felt great. More than that, it made me realize how powerful it is to share your journey publicly. You reflect on what you learned, and at the same time people start noticing the work you are putting in.
+Definitely trying to be more consistent with it now.
+BARF
+if u haven’t read previous newsletter, then WTF U DOING GO READ THAT, i was talking about a VR research project I am part of, i kinda slacked off because i had crazy fever + my exams are coming really really soon
+but the guy i am working under has divided work nicely for every member, so ig i have no choice but to the work
+sed life
+MentorEdge
+mentoredge is going pretty good, we have build nice website in like 3 days, for rest of the days i worked hard to make UI better so it doesn’t look like some random vibe coded app
+Okay this was actually crazy
+We were testing our app with around 150 to 200 people. First time ever running it in front of such a big crowd. Pressure was insane.
+Right when people started trying to log in, Supabase hit us with rate limiting. Everything just froze at the worst possible moment. For like ten minutes straight we genuinely thought it was over. That feeling of we are done was very real.
+Somehow we tracked the issue and fixed it.
+Then someone random nigga started trying SQL injection attacks and our mobile app crashed. At that point it just felt unreal. But we managed to patch that too.
+Honestly one of the most stressful ten minutes ever. Proper scary experience.
+Paper Viewer
+also random side note i made a quick website for my first peeps to see the first year midsem papers easily, it was not there for them so like i kinda vibe coded it for them
+Visit Paper Viewer
+else i am working on many small small things like this random instagram algo i started researching about after reading about this
+https://paraschopra.github.io/explainers/recco/index.html
+if u see it carefully, you’ll see i am much more into cooking an in my feed it’s showing just cooking, but it’s also trying to show comedy or music it’s so cool, i have so cra
+but yeah if i make it into big then lesgo
+bye bye
+shrit
+
+================================================================================
+
+## Don’t stare at money too long, it’s Medusa - Ye
+Date: 2026-02-12T18:48:55.014Z
+URL: https://shrit.substack.com/p/dont-stare-at-money-too-long-its
+
+alright
+i missed the newsletter for two weeks.
+because i forgot it exists.
+i was just buried.
+the last two three weeks were chaos in motion.
+new ideas showed up out of nowhere. old ideas that i was excited about just… died. some things flopped instantly.
+a lot happened. fast.
+so yeah, the newsletter slipped.
+keeping this simple because my head is literally exploding and i do not have the energy to be poetic today
+Also, I don’t have the energy to write the whole article myself, so I’m just speaking this shit out and you know, I’m trying to tell the AI to rephrase whatever I’m saying. So there’s that. So if you feel the article is very small and weird, just read that shit, bro. I’m tired.
+Mentor Edge
+so here’s what happened.
+i got a mail from my college about internship opportunities. they were looking for developers.
+and i was like yeah that’s me.
+i went for the interview. got selected.
+i met the Pro Vice Chancellor of the college. now i am working under him.
+which is honestly kind of crazy. pretty cool. not something i expected randomly on a normal week.
+but here’s the other side.
+my life before this was simple.
+i would work on projects. sometimes intensely. sometimes at my own pace.
+now it is different.
+now i have to show up. almost every hour of the day is structured. i have to work hard whether i feel like it or not.
+but i am working with really smart people. making real connections. getting access to real facilities. real exposure.
+and honestly it feels earned.
+for the skills i built. for the effort i put in.
+B.A.R.F
+if you remember that scene from Spider Man where Tony Stark is standing inside that hologram setup moving things around in 3D especially the part where he talks about his father
+like this
+in college there is a team trying to build something like that not holograms obviously we are not there yet
+but something inside a 3D space
+a model you can walk through interact with observe from every angle
+we did a lot of research and by a lot i mean hours of reading, watching, testing
+the closest practical answer right now
+VR
+we are facing problems from every direction technical limitations hardware constraints design confusion execution gaps
+i genuinely do not know if this project will fully work
+but that is not even the best part
+the best part is the people
+i am working under really sharp minds i am learning more in weeks than i expected to learn in months
+and somewhere in the middle of all this i started getting interested in research
+i never knew writing a research paper could be this approachable it always felt like some locked academic thing but it is not
+it is just structured curiosity
+and i have a lot of curiosity
+i want to explore it properly
+maybe next week if i get time i will write a full article on my website
+breaking down everything what we are building what we learned what is possible what is not
+because honestly
+this project is kind of crazy
+and i want to document it properly
+No More Bus Buddy
+yeah my mouth hurts, i didn’t find bus buddy idea fitting for multiple reasons mainly the team issue & my time commitment, i might work on this idea later because execution was a big problem here not the idea itself
+Side Projects
+One other thing, I really wanted to work on a digicam. I use this iPhone’s digicam. I wanna make it that for myself. And I’m just making a mobile app, that’s it. I’m sorry, it’s very small and all, my newsletter. It’s just I’m really really tired, but i am just trying to show up
+Free part
+right now i am confused in a very loud way
+i started going to the gym in january and now everything feels intense
+there are two stories in my head
+story one
+i am not actually working that hard i already know most of the things i am doing the work is not some alien thing i have been doing similar stuff for years
+so maybe this is just mental
+maybe i think i am overloaded just because i cannot sit in my room and scroll for an hour
+maybe i am dramatizing it
+story two
+maybe i am actually pushing too hard
+maybe i am not letting myself breathe not letting myself chill not forgiving myself for being tired
+maybe i deserve more rest than i allow maybe i am trying to squeeze improvement out of every second
+and i do not know which one is true
+am i lazy and overthinking or am i genuinely exhausted
+today my head hurt so much i skipped the gym
+and that alone made me question everything
+am i locked in or am i burning out
+should i accept that this phase is intense that being locked in is normal
+or should i slow down before i snap
+i do not have the answer
+i just know that i cannot have everything perfectly balanced
+but yeah today it was tired shrit
+mb for that gang until then next time
+mua shriut
+
+================================================================================
+
+## I saw a fighter jet go-by today
+Date: 2026-01-23T21:47:33.860Z
+URL: https://shrit.substack.com/p/i-saw-a-fighter-jet-go-by-today
+
+gang we’re in 30 weeks sure it took us more than a year to complete but let’s go we are at week 30
+wtsup consistent shrit is back haha,
+so shrit how was ur week?
+yeah honestly it’s been kinda rough lol. ever since I got back to campus after the semester break, things have felt heavy. I started being more responsible with money, started getting that spark back again, but I think I took on way more than I could handle. ended up losing my earphones, started going to the gym, and on top of that lost two hackathons, let’s peel all the layers one by one
+yeah but i went to this place in the morning and have dosa (idk i am not depressed i’ll figure it ig)
+also while I was walking I saw a mom chicken walking around with her babies, it was such a cute photo honestly
+losing two hackathons
+bro in January me and my friends took part in two hackathons, and yeah in both of them we did not even get shortlisted. I genuinely tried my best to at least make it through, but I guess it just was not our time.
+in one of the hackathons we made this video, you can watch it on yt. it’s honestly so funny lol. we did not win, but filming that whole thing was actually really fun.
+Took way too much i could handle
+so it’s like I was juggling 4 to 5 ideas at the start because everything felt exciting, but that slowly turned into guilt of not doing enough on any one thing. so I ended up cutting down most of them, even though they honestly sounded way cooler. but yeah, it was needed.
+ps: the one on the left is the one I lost, and the one on the right is the new one I got
+right now I’m focusing on the video and the busbuddy app.
+I barely had time this week, so I could only finish the frontend of the app. I’ve got some nice holidays coming up next week, so I’ll try to wrap it up then. I’ve already recorded the video for my Strava too, just need to edit it now.
+i am too sleeepy but some day i’ll tell u on that 4-5 ideas i was working on it were so cool
+finance
+idk why but btw I turned 18 last week, so I started looking into public sector stuff and investing and all, because now I actually can lol. I’ve already read a couple of books, and honestly this topic feels kinda fun. I think I’m gonna keep digging into it, how to invest properly, how compounding actually works, and where the maximum money can really be made.
+motivation??
+bro idk, these past few days have been weird. my roommate has been grinding, learning all this cool stuff, and then I met this one guy who’s been coding for a long time and has already done so much.
+I look at them and get jealous like how tf do they have so much time to do whatever they want, and here I am at 3am, sleepy af, still writing this newsletter. but strangely, this jealousy is what’s motivating me. nah, I’m gonna follow what I actually wanna do, and I’m gonna do it the best I can.
+ps: nice scenery i saw lol
+else i am too sleepy to write something nice so that’s it for this week, but yeah i hope i do some productive work from next week
+bue bue buee
+shrit tata
+
+================================================================================
+
+## I was missing being cringe, so I am back
+Date: 2026-01-15T16:00:00.877Z
+URL: https://shrit.substack.com/p/i-was-missing-being-cringe-so-i-am
+
+hello gang wtsup lol i don’t think so anybody will even see this, i am posting after 3 months
+Life got weird after college, so I went quiet. I posted once, then disappeared for three months. I had fun this semester and did not build much. There were ups and downs. Some parts were scary. But I am back.
+I am working on ideas again and trying things. I do not remember what I wrote last time. I have a lot to share.
+Let us go.
+The Fun
+Let us talk about what I was doing last semester and why I was not building anything.
+The simple answer is I was having fun. I traveled with friends, made new friends, and spent time living life. I realized life is more than sitting in one place and working all the time. There were ups and downs. Some days I was sad, some days happy. The whole semester felt like an emotional rollercoaster.
+But even with all that fun, I felt unfulfilled. It was enjoyable, but I was not doing anything meaningful. That made me question myself. Should I stop building. Should I just focus on college, get the skills, get a job, and let life flow.
+But that did not feel like me. Doing nothing made me unhappy. I was fighting myself for a long time because of that.
+Eventually, I realized something. I am not building just for a better future or stability. I build because this is who I am. Making things, trying ideas, creating value. That is where my joy comes from. And that is what I want to do.
+YouTube
+I said I would make videos, then disappeared for the entire semester, which is almost six months.
+I did upload one video though, and I am actually happy about that. It is me trying to build an app and journaling the process. That is basically it.
+I am also writing a script for another video, so one more is coming. I am not consistent on YouTube at all, but I like that I am at least uploading something.
+If you want, you can check it out. The content is kind of weird. I do not even know why I am on YouTube. I just upload one random video every two or three months. And that is fine.
+Bus Buddy
+Funny enough, I got into the E Cell of my college, MAHE Innovation Center. I was assigned to guide one startup, which was honestly pretty fun.
+I do not want to make this newsletter long, so I will talk more about the startup next week when I am actually deeper into working on it. But for now, I was supposed to track what they are doing and help guide them. The idea itself was very practical and interesting, and I ended up getting involved more than I expected.
+The app is not built yet and there is still a lot left to do. But I am confident the idea has real potential and can work. That part excites me.
+So yeah, another thing happened. I got pulled into a startup again. Even though I say I do not care about money, that is not really the point. I just want to work on things I believe in.
+I have been doing this for two or three years now. I have failed many times, but those failures taught me what not to do. I can already see many people making the same mistakes I once did. So in a way, this feels good. It feels useful.
+Strava
+Apart from that, let me talk about a small project I was working on.
+I built an astrology app. I do not really believe in astrology or stars guiding life, but I found the idea interesting. I came across CoStar and liked how it removes the need to go to an astrologer and puts everything on your phone.
+So I tried building something similar. I am also planning a YouTube video around it, explaining how I built it and the thinking behind it. That video is still a work in progress and I am writing the script right now.
+If you want, you can check it out and make an account. The stats so far are kind of crazy.
+Click Here to See the Website I made
+Becon
+I went to a competition at my college that was inaugurated by IIT Delhi along with my college. A lot of investors and founders were there, so it was a fun event. I met many people and made a few connections. Nothing huge, but still valuable.
+One big takeaway from that event was this. If you are building something, you need to really understand your market and your idea. The founders and investors were not impressed by fancy solutions. They kept asking simple but hard questions. What is the idea. Who is the market. How will it make money. What is the actual problem. Do people even think this is a problem.
+Most of the focus was on the problem, not the solution.
+that’s something everybody knows, but nobody really focus on that
+What in Future?
+Alright, that is it for the last six months. Now, what about the future.
+Honestly, I do not know. I do not know if I will do more hackathons, build random side projects, work on startups, or disappear again for a bit. I really do not know what is coming.
+What I do know is this. I have learned a lot, and I want to give that back. The best way for me is by talking to people, having real conversations, building small things together, and maybe even starting something with them. Money is not the main goal. It is a nice external factor, but the real fun comes from building and meeting people.
+Will I post every week. I will try. That basically means yes. I want to be consistent again. Writing these small newsletters makes me realise when I am doing nothing. Saying things publicly helps me stay accountable.
+I also want to do more hackathons and attend more events. That is where I learn the most. I also realised I am bad at hardware, so that is something I want to work on.
+That is the plan for now.
+tata gang
+bye bye
+shrtit
+
+================================================================================
+
+## idk why so many bees spawning in my washroom
+Date: 2025-10-04T20:14:34.963Z
+URL: https://shrit.substack.com/p/idk-why-so-many-bees-spawning-in
+
+hello gang
+what’s up, long time no see
+it’s been more than a month my online presence has totally gone, feels very weird
+I know i have taken lot of breaks, i think this break was really worth it
+this article is gonna be really deep one
+Deep Shrit Down
+it was august and i had just shut down fizzify (if you don’t know about the cold drink thing go read the last post). Honestly i was lost i had no clue what i really wanted to do. i started questioning everything like every damn thing. idk if it happens with everyone or i was just overworking my own head too much.
+Is this whole hustle thing even worth it? writing a newsletter every day that barely ten people read, is it really worth it? working this hard, chasing all this stuff i’ve been running after since i was a kid, is any of it actually worth it?
+or maybe just being a normal guy in college who studies a bit hard gets decent grades lands a good job lives a simple life spends money freely every day wouldn’t that be worth it too? i went to my cousin’s place for a weekend and honestly his life didn’t look bad at all it was chill he was hanging out with friends laughing over random stuff just having fun. so why am i even differentiating between that and mine? maybe because since 7th grade when everyone else was sleeping i was the one coding random things. when others were chilling i believed what i was doing was for something bigger. when people told me to stop all this and just study and no one stood by me i still told myself saying
+“nah i’ll do it”
+. and by the end of 12th i actually felt like i won cause i made a bit of money on my own.
+but all those dreams all the affirmations were fading away. was i really that good or did i just waste thousands of hours on nothing? maybe i should’ve just had fun instead.
+for a long time i couldn’t work cause i didn’t even know what to work on. should i start a new startup? what should i even do? that’s when i stopped writing the newsletter cause i wasn’t working on anything. was it easy? not at all. my whole ego, that feeling of being better than everyone, it was crashing down. honestly, it was one of the worst feelings ever.
+idk if i’ve said this before but the college costs a lot, and it just puts this weird heavy pressure on you to make it all worth it, to work harder, to not screw up. it’s always there, that thought, what if it doesn’t work out?, that whole “i’ve got it all figured out, i’ll crush everything, be at the top” mindset just started falling apart ’cause my mind couldn’t handle it anymore.
+and that’s the thing, there was just so much going on i couldn’t focus on what i actually wanted to do, cause i had no shitty idea to work on anyway.
+that’s when i realised, shit, idk, i just want a big ass break. i can’t think this much. i just got to college, i just wanna have fun. fuck all these thoughts. i literally stopped working and was like whatever, i’ll figure something out later. right now what matters is living in the present and just having fun with the people around me.
+and i kid you not the fun i had was insane, i went to so many places, explored the whole of bangalore, everything they show when they say “college is where you have fun,” i actually did it all. i wasn’t really the kind of person who liked going out, seeing different places, or spending money on it, but i realized it was never about the place. the place can be boring as hell, it’s the people who make it colorful, it’s the people who make you have fun.
+i had so much fun with everybody. i realized i’m so bad at spending money, doing new crazy shit, talking to new people every day, but damn it was all so worth it.
+but with all this fun, i completely forgot about any work. i practically didn’t even touch my laptop during that whole phase. whenever i felt that guilt of wasting my parents’ money, i’d just study something for the sake of it, knowing deep down that apart from my grades, nothing else was really growing (not even grades i am not good with studies lol).
+but after all this time i think i’ve realised a lot and i think i’m back:
+i think in the middle of trying to make money i forgot what it means, what og shrit really was
+i feel like when people work hard, there’s two kinds, one who work hard just to show “SEE BRO I’M WORKING HARD” and the other who do it just cause it’s fun
+og shrit used to have so much fun doing random shit that money was never the point, og shrit could work 16 hours straight cause he was actually having fun
+he didn’t care who’s paying or who’s not
+if he liked something, he’d just make it on his own, didn’t care wtvr it was
+if he wanted to make songs, he’d make songs
+if he wanted to make games, he’d make games
+he didn’t care what people said about him, he just did his thing
+but when he started making a little money, he thought wow, so many people are praising me after so long, maybe if i make more money, more people will praise me
+instead of having fun, his goal became to earn more
+he met farza (if you don’t know, i was once farzaholic, read previous newsletters to know more), and to this day farza is goated, cause he loves what he does, he can work all day cause for him it’s not work, it’s just fun, but i’m not farza
+i’m shrit
+and when i think about what i want in life right now
+i wouldn’t say a lot of money, i’d say a lot of people using my product and me having fun while building it
+for the longest time i didn’t want to admit it, but now i can, i don’t care about money, what i actually care about is having fun while doing all of it
+cause no one knows how much fun that shit is, og shrit knows
+for og shrit, fun is building things, creating stuff, doing something nobody else is doing and having a blast while doing it, that’s the real crazy part
+so will i be og shrit again and only code and have fun, no other way
+nah, nobody can be og shrit again lol, but i can be goated shrit
+you can’t really turn back and be who you were 4-5 years ago
+you can only connect the dots when you’re looking ahead
+i don’t just wanna code, i wanna learn how to distribute what i make to people
+but i don’t want money, i just wanna have fun
+idk, i want people like me, idk where i’ll find them, but i hope i do
+anyway, having fun is all i ever wanted and i will in future
+in the middle of all this i kinda forgot that the whole point of this newsletter was to write cool shit, not to make cool money, and i never wanted a huge audience, i just wanted to say what i feel like
+also, i got into the innovation cell at my campus, so i hope that’ll be fun too
+in the end
+i’m shrit and i’m goated
+i’m already better than everybody, i’m gonna be the best in the world
+idc when, but one day
+i’ll make the people i admire, like farza, text me
+one day
+i love you all
+bye bye
+shrit
+
+================================================================================
+
+## monopoly in uber / ola in blr is insaneeeee
+Date: 2025-08-17T14:12:12.538Z
+URL: https://shrit.substack.com/p/monopoly-in-uber-ola-in-blr-is-insaneeeee
+
+hello ppl this newsletter is gonna be short because
+I am little feverish
+i am little sad
+closing fizzify
+today I closed the biz which i started two weeks ago, why?
+it was not fun, we were selling cold drinks and that was the whole point but after getting some orders in the start i was happy then it just stopped, it started feeling irritating and the margin was only 10-15 rupees, still i was looking forward to it honestly it had only been three days and i told myself i am not giving up too soon not this time, but then i thought just for 10-15 rs why am i fucking myself
+fizzify was my little experiment telling me that i can make money whenever I want and it was a sucess
+but you know it’s yesterday i was telling everyone to buy cold drinks and now suddenly i have to say we stopped, feels like a small part of me is gone, fizzify was my little baby and it feels like i lost it, it was a happy end but still somewhere it feels like something went missing
+lot of things in middle something like
+One guy clicked photo with me
+he wanted a cold drink really badly at 12am, like really really badly and when i gave it to him he was so happy, so happy that he told all his friends about fizzify and even clicked a photo with me
+A reddit post
+https://www.reddit.com/r/Manipal_Academics/comments/1mjypo3/illegal_things_happening_in_manipal_bengaluru/
+even though the post is deleted my friend sent it to me saying it was about my company, it was a negative post but still publicity is publicity and i kind of love that we were valuable enough for someone to write about
+competitors
+lol in two weeks we also had 1-2 competiors but they couldn’t be popular it’s because shrit was bulish on marketing with fizzify
+Chat bot?
+it’s something i started i working on
+a very detailed AI chatbot for a specific company, not new but very niched
+my friend’s mama has a company and we’re trying to create a production ready customer care for his company
+it’s good to be back in coding and learning, it’s been long time I have coded a long project
+i’ll talk more next week when i feel little feel
+for now
+bye
+muha
+shrit
+
+================================================================================
+
+## I am broke now I sell cold drink to make amends
+Date: 2025-08-10T11:08:35.514Z
+URL: https://shrit.substack.com/p/i-am-broke-now-i-sell-cold-drink
+
+Every week I say the next one will be crazier than the last. And somehow, it always is. This week’s newsletter? Yeah… it’s wilder than last time too.
+First of all, Happy Rakshabandhan! If you do not know, it is a festival we celebrate at home where sisters tie a Rakhi, a simple band, on their brothers’ wrists, and brothers promise to protect them from any evil. But this time was different. It was my first Rakhi away from home, 2k km away in Bangalore. Luckily, I had a relative’s place here, so I am chilling. Which means this newsletter is going to be a big one.
+Fizzify
+Alright, 90 percent of the time in this newsletter I will be talking about Fizzify. If you read my previous one, you already know I started a cold drink business on campus. The twist is that anything related to soda is not allowed here. Back when I was in Delhi, I loved drinking cold drinks all the time. I thought that once I had freedom I would drink even more. But here, I could not. So I started a business for people who wanted a cold drink just as much as I did.
+Now, if you have been reading me for a long time, you know I have no idea how to do business. I am terrible at selling(or i thought). So I knew the real challenge was not building a great website, it was getting orders and making money.
+Our plan was simple. If a cold drink cost Rs.40, we would sell it for Rs.60. The extra Rs.20 would be our delivery charge.
+We started only for the boys hostel since we did not have any delivery partners. There was a small shop outside the campus, and our idea was to buy the cold drinks from there and deliver them to the boys’ hostel.
+And there is a spot in the campus where, after 9 pm, or so, everyone goes for a little walk. I wanted to meet a lot of people there, especially those my age, so I can strike up conversations with them. If you read my previous newsletter, you know that on the first day I got just one client. On the second day I got three. And by the fourth day, we got somewhere around 10 bottle orders, which was insane. It basically means our business is not slowing down, every day we are upping our game.
+ps:the tracks is filled in night
+On my fifth day,Many girls said they also wanted cold drinks delivered to their rooms. So we started supplying to the girls as well. I had one friend, we told her we would give her 5 rupees for every bottle she helped sell. That was around 25% of the biz, but I felt it was fair since it would keep her motivated. And that move turned out to be game-changing. I do not know what exactly happened or why, but suddenly many girls started ordering. I think girls are just lazier than boys when it comes to going outside the campus to get a cold drink . That is probably why we got so many orders. On the fifth day alone, we had around 25 bottles of orders.
+Day 6,7 went more or less the same way. On day 6, we sold around 10 to 15 bottles, most of them to girls. But by day 7, we were exhausted. Every day we were waking up, getting bottles, talking to customers, handling everything, and honestly, it was mostly just me. I had a few friends helping, but the majority of the work fell on my shoulders. It was a lot to handle, and it started to take a toll.
+Then, on day 7, we had to shut the business down. The shop outside campus where we got our bottles ran out of stock because we had bought so many. We were helpless, and I also wanted a short break. Plus, I was leaving that Friday to stay at my relative’s place. So we decided to pause the business for three days.
+Right now the business is closed until Monday, though I am not sure exactly when I will reopen. I might take one or two more days off. But I keep thinking, if I continue on the same path, I could actually make a lot more money. Since the shop outside campus has no stock left, I will need to find other suppliers and buy bottles in bulk. I will probably get a cooler too. For now, it feels like I have a pretty good monopoly. A lot of boys who thought they could just get stock from outside the campus can no longer do that because it is all gone. Of course, this advantage could disappear if the shopkeeper restocks. But at the moment.
+Apart from that, I had this crazy idea. I do not just want to sell cold drinks. Health drinks are already being sold on campus, but a very popular one, Gatorade, is not. I could buy Gatorade and take it to the tracks. There is a cricket ground here with tracks around it where a lot of people run and practice. I could sell Gatorade to them on the spot at a much higher price. It could be another venture I start under Fizzify.
+Another problem I know will come sooner or later is the campus noticing what I am doing. Right now, I do not think we are that big. We have sold 50 bottles, which is crazy, but still not enough for the campus to really see us. If we sell more, I think they will notice. They could give me a warning, scold me, or even get my parents involved. On the worse side, I could get suspended. That is the main risk for me.
+I have been reading this book about Steve Jobs, and if you do not know, there is something called the reality distortion field. In simple terms, it means Steve Jobs believed he could bend reality and do whatever he wanted.
+Another example is Mark Zuckerberg, when he started a small site called Facemash, which was not legal, and he got suspended for it. I am not doing anything illegal here. Selling cold drinks is legal, though maybe making money from it might be against the rules. I do not know. I might get suspended, but honestly, it feels kind of cool to think I could get suspended for making money on my own.
+Maturing or llsh*t
+Apart from that, I have been talking to many seniors, though not as many as the previous week, and also quite a lot of the people in my year. I think I have gotten a little famous. People might not know my name, but many know me as “the guy who sells cold drinks.” It is actually a cool feeling to go up to someone random and ask if they know about the cold drink business I started, and have them go, “Oh, that’s you. Very cool, bro.”
+A lot of females also interacted with me, which is nice, but my main goal is still to make money. They give me money, I take the money, and I also take a bit of recognition along with it. That is a different kind of reward.
+I have been thinking about this for a while. Last week, whenever I went to talk to people, my pitch was, “Hey, this is what I did in the past, now respect me because I did it before and I will do it again in the future.” Which was fine, and it made people see that I had done something before. But now, my approach is different. My story is, “Do you know about the cold drink business I am doing?” If they say no, I tell them about it as something that is happening right now. That makes them feel like, “Oh wow, this guy is actually doing something.”
+And honestly, I feel like this is going in the right direction, especially because of this quote
+Apart from that, I do not know much. Honestly, I do not even know how this thing picked up the way it did. Was it because the problem was really good? Was it because the execution was really good? Or was it simply because my ideal customers were right in front of me? Maybe it was all of that combined.
+I used to think that talking to people and getting them to pay would be much harder than it actually is. But this week I realised that making people pay is actually fun. You get to talk to them, you get to know them, and then they pay you. It is a strange but very good feeling. Honestly, I have started enjoying that part the most. And maybe that is the biggest reason this business is growing, and will keep growing if I continue and the campus does not ban me.
+Steve Jovs Muha
+I do not know, but I have started becoming a huge fan of Steve Jobs because I have read half of his book. I have been going a little slow, so in two weeks I have only completed half of it. But I am in love with the book. Once I finish it, I will definitely write a full article on it, and if not an article, then at least a newsletter for sure.
+i think this is it I will also try to cut I have been spending a lot on food(way tooo much)
+bye bye
+Shrit
+
+================================================================================
+
+## I drank Boba, it's like little balls in the end it sucks a lot, just like bad matcha
+Date: 2025-08-03T18:07:02.953Z
+URL: https://shrit.substack.com/p/i-drank-boba-its-like-little-balls
+
+how are you bois and gals
+another new week
+last week’s newsletter kinda flopped, barely touched 50 percent views do I care? maybe a little wasn’t my best piece anyway this week was more crazy than before
+Coke Business
+cold drinks are banned on campus so I saw a business gap got a few friends and we started selling them made some wild posts too
+kept a 20 rupee margin since manipal folks probably have lot of money
+every evening seniors comes for a stroll after college felt like a good chance to find people and ask for money I kept asking everyone , do you drink cold drinks? do you want it delivered to your room?
+many said no but, fairly enough
+found 2 or 3 people who were actually interested, next day got 2 more drank one myself because I love cold drinks too much sold the other one today got 3 and planning to sell all of them by night profit’s not the point margin is just 20 bucks what I really care about is the skill I’m picking up while selling
+Chill
+I used to think sales was just boring cubicle work, cold calls and old folks chasing leads, but this week flipped that, sales is really just getting someone to give you money by showing them what they’re missing. maybe I’m bad at it, maybe not, but I’m enjoying figuring it out. When someone agrees to pay you money onspot is the best feeling you can feel.
+Apart from it went to a pretty famous spot in bangalore, known as Church Street. Found Many Brands there, was total fun with peoples.this week felt light. also yeah, got CS in manipal.
+bye bye Shrit
+
+================================================================================
+
+## shrit should work hard, i think
+Date: 2025-07-28T12:27:32.151Z
+URL: https://shrit.substack.com/p/shrit-should-work-hard-i-think
+
+hello peeps
+this week felt too long idk maybe because i didn’t really do anything “productive” but i probably talked to 100–200 people
+learnt a lot honestly a lot of convos, trying to convince people, getting to know them, understanding what they want and where they’re stuck
+rest of the time i was just chilling talked to random seniors played a lot of physical games — badminton, volleyball, basketball, you name it
+also my classes started so writing has been getting pushed again and again can’t delay it more this one’s going to be short — just sharing what i learnt from talking to seniors this week
+Seniors Talk
+if you read my last newsletter, you’ll know i was talking to a bunch of seniors in college who seemed like they were
+doing
+something, or at least passionate, from what i could see
+this week i actually talked to them
+every single one of them had something to teach me
+stuff i couldn’t have figured on my own
+and the biggest thing? luck
+believe it or not, in every story(including mine) luck played a huge role
+like
+huge
+E-cell President
+the talk with the E-Cell president was strange in a way i won’t forget anytime soon
+back in 11th and 12th, he didn’t study much for JEE instead, he started a Gifting-related business which honestly blew my mind
+E-Cell (entrepreneurship cell) in our college isn’t that great but he still tried his best to build a space for new pl
+he told me about his journey how he started ventures, met people, built partnerships his connections were next level
+one thing he said stuck with me if you have passion, work hard, and know the right people you can pretty much do whatever you want
+i’m still trying to figure out that last part connections aren’t easy for me
+he’s still working now trying to get into a job for experience his path felt weirdly similar to mine but also not really
+just a wild story and a crazier guy
+hard way??
+last thing i’ll say most people here either have strong connections or enough money to not care
+i have neither so i’ll have to build my own path build my own leverage
+maybe that’s my story now to become someone who can make things happen on his own
+i’m not rushing still figuring it out but when i’m ready i’ll fight like hell
+signing off Shrit
+btw boys i wrote with the help of chatgpt hitting bed after this
+
+================================================================================
+
+## BLR PEEPS we here
+Date: 2025-07-20T06:44:08.277Z
+URL: https://shrit.substack.com/p/blr-peeps-we-here
+
+yoo peeps howdy
+fun fact I AM IN BANGALORE
+ps: banaglore is south part of India
+I took the college, it’s in blr if you’re in here hit me up i’ll love to meet you
+ps: a view of my campus (so frikcking cool) I have started clicking so cool pictures in here that I am thinking to switch careers lol
+but my college is expensive, and I need to be
+badass shrit
+in here, seniors are not in here yet, clubs will start a month or os, but yes many ppl are here I am pretty sure we can find a cracked co-founder here
+I made some crazy friends with whom I like to talk / play so cool, tbh this whole week I pretty much didn’t do anything half of the week I was roaming in blr, and second half was pretty much exploring campus, seeing what things have been going on, and BROO it’s soo much
+they showed in the programmes, ppls are building self-driving cars, attending crazy events, and so much more
+I can see multiple ways to find things I want to do
+but the biggest thing i’m trying this week is just talking with easy words, what i mean is i’m in south india and people here are from all sorts of places, many don’t know hindi (my language), and bro talking in english itself is an art, i’m trying to take long pauses while speaking, look around, actually see the person i’m talking to. it feels weird at first, but but slowly you start understanding people better. even though talking in english like this feels super off sometimes, i think it’s helping me know more about the person i’m talking to. i’m trying cause there are just too many people to meet. btw i’m reading the steve jobs biography. he did something like this when he was 17 lol.
+apart from it the college life which ppl said happens in hostel, is actually happening (except romance), it’s so crazy
+also this was a event for first years yesterday, damn ppl danced like crazy
+No building??
+this was something which is troubling be in all of this fun, like making friends talking to new ppl, is itself a very crazy experience which I didn’t really had before, new phase of life you can say
+but somethings like
+college is expensive
+(it’s not really much of a problem, because I can see my money going in a good place, but still it stops a person in just partying all day, tbh I still feel like it’s a good pressure to have, keeps you in check)
+it was my choice
+I had an option to stay in my home or to travel to south, in blr meet new ppl and events
+I don’t know shit
+i wanna build something, maybe a business, maybe do research, or maybe just have fun, but fr i have no clue, like 0 clue. and this week i didn’t even try to figure any of it out, and that’s kinda messing with me.
+I tried building this thing called
+MonAsk
+— kinda like AI for budgeting. ’Cause every time I try to buy something, there’s a whole war going on inside my head about the budget. Thought AI could help me out, but turns out even AI has no clue what to pick lol.
+apart from it this week was crazy ass fun, and next week will be more fun meeting with seniors, I have started sending messages to seniors, whom I find cool
+that’s all
+bye bye
+tata
+shrit
+
+================================================================================
+
+## GCD I met Very Cool PPL
+Date: 2025-07-12T20:56:33.374Z
+URL: https://shrit.substack.com/p/gcd-i-met-very-cool-ppl
+
+yo chat
+what’s up
+went to google’s GDG event today, have talked more below
+Zwappr
+on wednesday i got call from Krish bhaiya he told about this idea, not sure how it’s gonna go forward but a small video here
+GDG Event
+so now in the whole newsletter I would be talking about ppl I met today, what I learn and stuff like that, I don’t wanna forget things i learnt today so here’s that, I think it’s going to be pretty interesting
+The Buffer Time
+maybe it’s just me, or whenever I go to new places I need a veryy big buffer time.
+By Buffer Time I mean I need time to get comfortable with my surroudings, and once I do I get practically talk to anyone
+IDK if it’s a bad thing or not but, when I was in the event my first hour went just sipping my tea alone, in the last seat lol, maybe i was alone in the event that’s why but yes it sucked for that our
+but after that i talked to crazy ppl some
+Rishav Saxena @CTO Crex
+I wasn’t able to click a photo with him , that’s the best I had
+it’s was fun to talk with him because the company he started
+CREX,
+had the same model as Forge Zone (
+https://www.forgezone.dev/
+something which I started)
+Crex
+shows you cricket scores with good UI / UX
+and i think he told me where I failed where he lowkey told me where i went wrong. when he was in college, he built crex — and he was super honest about it, said there was no big “cause” or anything (what even is a cause in showing cricket scores lol). it was a money-first move. back in 2016 there was no insta virality, so he used whatsapp to grow it (funny thing, i was also trying whatsapp when i did forge zone in 2025 ). but the key thing? he had google ads running, so his site was making money.
+i told him i didn’t wanna do something just for money — and he said something that stuck.
+“if it doesn’t make money from day one, you’ll lose interest pretty soon.”
+and honestly? that might be kinda true.
+Kriti + Ajay @wayfair
+so this part was kinda wild. i was actually super scared to tell them what i have been doing. like these folks were the speakers at the event, had a whole crowd around them, everyone was listening to their stories and what they were working on — and i wanted to share mine too, but damn i was nervous.
+but then i thought, bro if i leave with regret, that’s gonna suck more. so i told them. and she went full energy mode lol. talked
+a lot
+, asked stuff, gave advice — but the best part? she didn’t talk to me like some kid in 12th, she talked to me like someone who actually builds. that felt insane. like i want to treat people around me the same way someday.
+alsooo something mad happened — got their contacts, and they literally invited me to their office in blr (i
+might
+go college there). imagine, first event i push myself to talk to people and this happens. crazy.
+talk.to.more.ppl…
+and that sums it up, I met more crazy ppl it’ll be really long list i don’t wanna dwell on it, else it’ll be really long
+one thing which I am sad about, it’s just I wasn’t able to get any ppl in my newsletter, I was focused more on talking
+but yes that’s what happend
+next wekk gonna be crazy
+Shrit
+tat tata
+bye
+
+================================================================================
+
+## drinking chai > drinking cofee, both are drugs btw
+Date: 2025-07-07T08:21:55.099Z
+URL: https://shrit.substack.com/p/drinking-chai-drinking-cofee-both
+
+hello peeps sup
+rn it’s 3:44am I am now an certified owl
+shieet
+This whole week i literally did nothing but just watch
+suits
+FYI
+: suits is a show on netflix about firms, kick ass lawyers, harvey spector badass glances
+after that i have just been imagining that being a lawyers doesn’t really suck, when you win you can make lot of money + attitude + respect
+I was at the ultimatum of binge watching, i have literally watched the 7 out 9 seasons in just a week (i skipped s6, it was getting repetitive)
+total hours in a week(exluding sleep):
+84 hours
+total hours watched:
+48 hours (92 episodes * 30min)
+that’s insane lol
+What else??
+Honestly, I am still looking out for college, filling forms and stuff, it is kinda overwhelming for me mentally
+I couldn't really focus on creating something because of the anxiety
+Now I have kinda learned that, I can't really do anything about it, so I shouldn't procrastinate
+So that's why I did nothing lol, but I did go out with homies had lot of fun
+Ps
+: went to a gaming cafe, and this was my CPU, honestly if some wires nicely handled this can became really aesthetic
+Work
+I literally can’t stop building random stuff, if I don’t do
+something
+, the guilt of not working kicks in before the day even ends.
+So using farza’s demo, I had this old clip of my cousins playing table tennis I thought it'll be fun to integrate AI feedback in this
+So first I asked gemini 2.5 to generate feedback from the video slowed down
+After having a nice feedback, I cooked a quick python script with cursor to add it in the video
+Also added a score counter in similar manner
+And viola we have it, looks so cool
+Growth
+I posted this video on Twitter, and it crossed ~3k views that's cool
+Even a guy from random language retweeted it, WE’RE INTERNATIONAL BABY
+I used to think that if a post doesn't get crazy views in first 5 minutes, it's not really going to
+But this time, it didn't it didn't even perform very good in the start but slowly did
+So i guess its a myth
+MYTH BUSTERS YES SIRRR
+Also we have grown to ~10 followers on twitter which is so crazy
+After posting content daily on twitter, i think these views and followers give you small dopamine, but just randomly posting shit, or talking on dms/comments have started to enjoy me more on twitter
+Book I read this week
+now that I have more free time I am back at reading, I used to love reading and still do
+I read this book
+insane book, for ppl in there starting of 20s, to know how to save/invest money in India, not really for ppl who are in there 30s-40s because half of things you will know in the book, no point in reading it
+Cheating
+i started this newsletter, to tell ppl what I am into because i am really lonely
+and second reason was to be better at forming words, which I think I have gotten in these months, but for past few weeks I have been cheating, I have been so obessed with openai’s speech → text (whispr), I have been using chatgpt mac app
+this makes writing newsletter really fast but it’s not really making me better on the contrary it’s making be more bad as a writer
+the letter which you read today was completely written by me, it might be bad, it might not be that polished but that’s how I can learn how to write and in future it’ll be same
+and that’ll be it from my side
+soon I’ll be going into college, things might spice up then
+let’s see
+tata tata
+bye
+Shrit
+
+================================================================================
+
+## Sadness means -ve slop in life? Geeky Saady Shrit
+Date: 2025-06-28T19:44:51.162Z
+URL: https://shrit.substack.com/p/sadness-means-ve-slop-in-life-geeky
+
+hey sup ppl how are you, let’s start by saying the whole week was pretty rough, but this newsletter is completely raw and we’re gonna open it up
+btw I bought Twitter Premium WOHO
+and also we’re up ~10 followers let’sgoo I post random shit everyday there lol
+i didn’t bought premium because I had too much money (maybe I had), but because I didn’t wanted to blame x’s algo for my downfall
+now I can only blame my content :)
+Let’s get started with what I did.
+My goal was simple:
+talk to as many ppl as I could. More conversations meant more clarity on whether my idea is a hit or a flop. I did around 10 calls this week, each lasting about 15 to 30 minutes. That was basically my week. I used to wake up, talk to people, and before sleeping, talk to more people.
+I am not someone who usually enjoys this, but talking to people turned out to be fun. Not everyone clicks, of course, but a few really do. Some folks just get you. You relate to what they are feeling, and they relate to you. Out of the 10, only 2 felt like that. But those 2 were worth it.
+There was one mistake though. I did not filter properly. I only asked if they were into coding, not specifically into web development. So 3 calls were a complete miss. I ended up wasting around 1.5 hours for nothing. Lesson learned. This week, I am only talking to people in the web field.
+GDG
+One of the people I really vibed with put me onto this wild community called
+GDG (Google Developer Group)
+. I always thought this kind of network only existed in places like Bangalore, but turns out it’s global. Seriously, it’s everywhere.
+He told me to spread the word to all the crazy folks I know. So if you’re reading this, click the button below, sign up, and get into these events.
+Google Developer Group
+This one’s for you, Krish bhaiya.
+(ps: most of these events are totally free, only a few are paid)
+Sad
+Let’s get back to the story. I spoke to so many people, and out of 10, only 4 builders actually signed up. And here’s the wild part, none of them made it past the first or second checkpoint.
+Even after 10 calls, even after hearing stuff like “this idea is so cool” or “this is exactly what I’ve been looking for,” only 5 people even logged in. Out of those, just a couple finished the first section. No one moved ahead after that.
+Pretty weird, honestly.
+Now I get it. A lot of people just say things to be nice, to not make you feel bad. But there are a few who actually tell you what’s real. You can feel it, that it’s coming straight from the heart. And when they say they genuinely love the idea, I believe them.
+So it never feels like the idea is bad. It just feels like the execution is.
+Worst
+raw, hard and honest part below
+I feel like every business idea runs on two things. One, the idea has to be cool enough. Two, the execution has to be on point. Only then it works.
+But what even is execution?
+I used to think it just means putting the idea in front of people. And I did that. Still failed. So now I keep thinking, did I mess up the execution or was the idea just bad? I honestly don’t know.
+When people were not finishing the builds, I thought retention was the issue. And for days now, especially since Wednesday, it’s been downhill. I did some research and realised the thing I am trying to do is not working.
+Building a dev community or expecting thousands of developers to just show up and build something on a platform is way harder than it looks. Nobody’s stopping them, sure, but also nobody’s pushing them either. No one’s out here saying “do this course, it’s free, it’ll help”, because there’s no reason for them to care. No real incentive. And even if you give one, without a name or reputation behind it, people won’t show up.
+Only early users might try it out, but most will drop because the community isn’t strong enough to hold them.
+So the real problem? I don’t have a community yet. I don’t have the kind of following where my word moves people. I’ve literally cried about this in earlier newsletters. I don’t have it.
+And I don’t have those super cool people around me, the ones who make a project feel 10x cooler just by being in it. That makes this really hard. Because this idea is not meant to be done alone.
+This is the kind of thing that needs energy, consistency, crazy people, and serious reach. And right now, I don’t have any of that. I’m just being real.
+ps: I am trying to show you guys that I am sad
+Every person I’ve met to so far, none of them felt like that crazy kind. The kind who just jump into something wild with you. And that sucks. Because this idea, in its current form, cannot survive without people like that.
+I think the idea might not work. Maybe I just need to quit. But I am not quitting. I failed, and that hurts. It hurts because I really thought I gave it everything. I thought this was it. That what I was building would be the best thing ever.
+But it’s not. And honestly, I’m not even as sad about the failure as I am about the money I spent on the domain and email. That stings more than it should.
+I didn’t account how much “energy, vibe” is required in something like forge zone, and as a solopreneur it’s kinda impossible
+solving an actual problem with old style SAAS is something which works for solopreneur. Even though I feel like my gut is right, I wanna give it another week, so I have booked call for the next week as well
+also another way is anyhow meeting crazy ppl, I don’t know how and where, but I think I gotta figure more things out
+Copying Art, Style is simple but getting that vibe and energy is something you can’t do alone, you need to have crazy ppl along with you
+-Shrit
+lesson learnt, hard way :(
+Money
+Also, not proud of it, but I had enough money in the bank to run ads or experiment with stuff. Still, I held back. Maybe I’ve become too money minded. I kept thinking I should save it for something I’d feel more excited about. Somewhere along the way, I turned into this money-saving version of myself, and honestly, that’s not who I am or want to be.
+I wanna spend as much money on random experiments, I think it’ll take some time
+Fear
+Yep. I might quit another idea. And it sucks. Not because my last venture was some big success, but because I really thought I would stick with this one no matter what. Yet here I am again, crying over another roadblock and thinking about closing it all down.
+Being a founder is cruel sometimes. You have to constantly figure out new ways to make money. And I honestly hate this whole thing of getting a lot of users first and thinking about money later. It drains you.
+I will probably hold on a little longer, maybe until I find more people to build with. But yes, I am scared.
+Scared that I might just be someone who quits too early.
+and rn I have nothing to tell myself to feel better, I’ll take a time off not from building but I want to look next thing I wanna do, in the mean time i’ll be building random shit
+Right now, I don’t really have anything to tell myself to feel better. I’ll take some time off, not from building, but to figure out what I want to do next.
+that’ll be it
+tata bye bye
+Shrit
+
+================================================================================
+
+## Slavery are Gone, Builder mode on
+Date: 2025-06-24T09:14:30.850Z
+URL: https://shrit.substack.com/p/slavery-are-gone-builder-mode-on
+
+so sorry for late newsletter, I was specifically waiting for today’s date, because, finally, I am free! Today, I gave my last paper.
+But I always thought that once my exams were over, life would suddenly become all fun and colourful and exciting. But honestly, it feels more stressful now. My grades aren’t looking that great, and I have no idea where I’ll end up, hopefully somewhere good
+before I begin I am writing tldr in detail because today’s newsletter is gonna be packed about new ventures
+TL;DR
+Finished my exams this week and officially launched my first big project —
+ForgeZone
+ForgeZone is a platform where developers level up by building real-world projects
+The site is live, a bit slow right now, but it works — keeping it simple until real users show up
+Phase one is done: bought domains, set things up, and shipped the basic version
+Target audience: college students who already know basic web development (HTML, JavaScript, React)
+Realized that this group is much smaller than expected — most students don’t know how to code
+I don’t want to teach beginners from scratch — there are better YouTube resources for that
+Talking to people through random WhatsApp groups helped fill my week with user calls
+Focus now is on validating the idea before investing in growth or building a team
+Dealing with self-doubt — feels like maybe I’m too early or someone already failed at this
+But this week
+was
+fun. I finally bought all the domains, got everything in place, and actually moved out of phase one — which feels pretty awesome, honestly.
+but shrit what phase one wtf are you talking about??
+Alright, it’s official.
+I’m starting my first
+real
+big project — and I’m all in.
+It’s called
+ForgeZone
+.
+Forge Zone
+check out the website here
+in simple words “
+We help developers level up by building real-world projects”
+The site is live now, you can check it out, see what ForgeZone really is, sign up, and start building. I know it’s kinda slow right now, probably some database mishandling on my part. I did try fixing it, but couldn’t crack it in 30 mins, so for now, it’s held together with duct tape. It works. I don’t want to over-engineer something no one’s using yet, so I’ll keep it like this till real people start showing up.
+Vision
+http://forgezone.dev/vision
+Forge Zone Vision
+If you’ve got 10 minutes, I’d love for you to check out this vision I wrote — it’s everything I imagine Forge Zone could become. If not, there’s a quick TLDR
+my story
+vision to have a place where anyone can have a place to build
+education space is a mess
+rn we're focused on growing and providing value
+we're pre revenue and trying to make rev. through sponsorships and job boards
+trying to market through instagram, yt
+we're not trying to be buildspace, we're trying to be forge zone
+my dream
+What Now?
+This first phase is about getting everything off the ground, buying domains, setting things up, and getting a basic version of the platform live. One of our first builds is called
+Spotify Rewind
+, you actually code your own app that generates your personal rewind. It’s pretty insane and honestly, super cool. If that sounds fun, go ahead and sign up for the build!
+So, what’s phase 2?
+It’s about really understanding the problem. Right now, I’m assuming my users are college students in their first or second year, people who already know a bit of JavaScript and React. I’m not targeting everyone, just this specific group.
+But now, I want to validate. Do these people actually find value in this? Will they really use it? Why or why not?
+So I’m talking to real users, trying to figure out if what I’m building is even worth it. If not, I need to change it quickly. That’s why I’m not going all in on marketing or team building yet. First, I want to make sure the problem I’m solving is the one they actually care about.
+I don’t want to build just any product. I want to build something real. Something people genuinely value.
+So, this week was wild, I ended up talking to a ton of people. I found them through random WhatsApp groups I somehow got into, dropped this super cryptic image to build suspense (you know the vibe), and boom, my whole next week got booked just like that.
+but idk
+Still feels like I’ve done nothing, honestly. Maybe because this problem’s been tackled by so many people before, and most of them couldn’t crack it. I feel like they were too focused on the money, not on actually building something cool.
+But I want to do it differently. I want to pour in all my struggle, all of it. I’m not gonna ghost this one like the other projects that died in the same month they were born. I want to see it through till the end.
+And if I hit something that’s a real deal-breaker, something I just
+can’t
+do. I’m open to pivoting. That’s why I’m spending time talking to people. I want to know if this idea is actually real. Or if I’m just dreaming.
+Up Until Now
+Up until now, I’ve talked to a few people. I assumed that most students in first, second, or third year would already know web development. But turns out, it’s way more niche than I thought. The number of college folks who actually know how to code, even the basics, is very small. Most don’t even touch code.
+And I don’t want to be another platform teaching beginners from scratch. There are already better YouTube videos for that. I want to focus on people who at least know the basics of web development, and are open to building small projects or learning something advanced.
+That segment is tiny and hard to find. I think my mistake was not asking people upfront what they actually do. So next week, I’m shifting focus. I’ll only talk to people who already code and are into web development.
+:)
+This week was packed with exams and everything. Next week’s gonna be more about talking to people and learning. But deep down, there’s still this voice saying I’m not it. That it’s not gonna work. Feels stupid, but it’s there. I don’t know if every founder feels this or it’s just me.
+Sometimes I wonder if I’m too young or too early to be solving this. Maybe someone already tried and failed, and I’m just repeating the cycle. But honestly, what’s the harm in trying? I’ve got the time, and I’m ready to give it everything.
+Tata Bye Bye
+Shrit
+oh btw i bought
+shrit@forgezone.dev
+pls email me there, I am lonely :(
+
+================================================================================
+
+## if AGI comes will researchers be their mother?
+Date: 2025-06-15T06:56:14.765Z
+URL: https://shrit.substack.com/p/if-agi-comes-will-researchers-be
+
+Yo people, what’s up — hope y’all doing good. This week was kinda chill, like I didn’t
+do
+much, but at the same time I
+did
+a lot. Didn’t grind like crazy, but yeah, lived life a bit. You feel me?
+tl;dr
+Dropped a 12-min read on the
+Future of Jobs
+New project brewing — site’s almost done, just waiting on bank + domain
+Fell into a Steve Jobs rabbit hole — dude was
+insane
+, built two revolutions
+Reading
+Creativity, Inc.
+and planning to grab Jobs’ biography soon
+Feeling mad inspired — vision’s blurry but belief is loud
+Future Of Jobs
+Wrote this piece after two days of deep dive — it’s a solid 12-minute read. Go ahead, give it a shot. It’s clean, well-structured, and yeah, I really poured my whole brain (and soul) into the research. Honestly, I believe this
+should
+be the future — and if it’s not yet, it damn well needs to be.
+View Article
+click here to view the article
+But honestly, I don’t know, man. Future’s wild. Could be war, could be AGI dropping outta nowhere, AI taking over — who even knows anymore? Feels like anything’s possible, and that’s why I lowkey think the future’s not something you can ever fully predict.
+But I also know that nobody will have a time to read a 12-minute article. Plus, I am really going short in content, so I am planning to make a video afterward.
+FG??
+If you’ve been following me for the past 2–3 posts, you probably know I’m cooking up a new project — maybe a company, maybe just a mad idea. Right now, just building the site, iterating on it. Already started a bit.
+But yeah, dumb blocker — bank account’s still in process, and I need that to buy the domain. Domain’s the last piece, and once that’s in, I’m going live. Hoping for the 22nd or sometime after.
+Till then, I’m vibing. Expect a proper drop in the next to next post.
+a small page in the website looks so coool
+Steve Jobs
+Random shit, I know. But yeah, I always thought Steve Jobs was cool, never really
+thought
+about him deeply though. Then outta nowhere, a YouTube video hits me — him talking about how he just goes still while listening, judges people calmly, observes. And damn, that stuck. That’s something I really wanna learn. I’ve been trying to speak better, think better. And this dude? Kinda lit a fire.
+Lately, I’ve just been in a Steve Jobs rabbit hole — like fr, watched every damn video on him last week. Didn’t even do much work ’cause I was just
+there
+. The guy’s a freakin’ visionary. Like, he
+saw
+personal computers changing the world before anyone else did. Got kicked from his own company, started a new one, came back, and boom. All of it’s wild.
+Planning to buy his biography after the 22nd — the Isaac one. Been reading “Creativity, Inc.” too — story of Pixar. And bro, even there, Steve pulls up. He funded Pixar. Like, what? Guy had his hands in changing two industries at once. Insane.
+I’m reading it online for now, but thinking to get the physical book too — just feels more
+real
+. I’m so deep into this era of Jobs, Pixar, Apple… that now I just
+feel
+it. I wanna build something like that. I wanna have that kind of crazy vision — the type where people call you delusional,
+Not trying to sound cool, but yeah — I’ve gone a bit delusional. Haven’t talked to users yet, don’t even know if I’m on the right path. But I believe it’ll work. And if it doesn’t, I’ll do it again. Someday, it has to work. And if it doesn’t… maybe I won’t be around to care.
+“The people who are crazy enough to think they can change the world, are the ones who do.” — Steve Jobs
+That’s a wrap for this week. Nothing crazy or super happening, but still — had a lot of fun diving into Steve Jobs, writing that article, and just dreaming about the future. It’s cool. Like, freakin’ cool.
+tata bye bye
+- Shrit
+
+================================================================================
+
+## I was chilling so hard that ice broke, get it?
+Date: 2025-06-07T14:26:46.377Z
+URL: https://shrit.substack.com/p/i-was-chilling-so-hard-that-ice-broke
+
+yo boyz and girlz how’re you doing today
+before we go ahead you can now listen to the newsletter at the top thanks muha
+this is a wallpaper I made with chatgpt, it’s so powerful now
+tl;dr
+Newsletter got unexpected love — thank you for reading
+Posted a story video — too long, not my style, keeping it simple next time
+X: Tweets getting 50–500 views, but stuck at 65 followers — kinda annoying
+Realized replying alone doesn’t grow your audience — still figuring it out
+Dream: build a space for people to work on what they love, not chase degrees
+No big funding — starting small, staying real, building up slow
+I'm so amazed, first of all, so many people who actually read my newsletter after so, so long. Like, I never thought somebody will read my newsletter after this long! So, first of all, thank you a lot, you are reading this random-ass guy who didn't even score good marks in his college exams and is crazy to know in which college he will end up. Maybe a good, maybe a bad, maybe... Nobody will take him.
+only time will tell
+Apart from it, it feels kind of crazy that how much fun I had this week + how much work I did this week
+Video
+Okay, so I really wanted to make a video telling about my story and what I will do in future. So, you can watch a video I made on
+Twitter
+and Youtube
+whichever you want. The video is a little longer in YouTube. Apart from it, I got very good suggestions that you should do this and a lot of people said that it was very good. Me personally, I didn’t like it that much. I think I made the video very long. So, yeah, let me know how was the video and how I can make it more better. Because I spent a lot of time in creating and editing the video. I don't really have a very good camera, so that's the best I could do.
+Honestly, I i’ll never create such videos again. I really liked Bonzo’s style, so I really tried to copy it, but I realized he has a much better camera, and much better tools, but I tried my best to recreate it lol. Apart from it, I just, it takes a lot of time to make videos with so many effects, so many B-rolls and stuff. I don't want to be like that. I want to have not much editing, basic editing, but giving cool-ass content. I would be doing that in the future.
+Growth
+Okay, a little backstory. I’ve started over 10 YouTube channels—none of them even crossed 100 subs. Not a single one. I always knew distribution and audience would be big in the future, so I kept trying… and kept failing. Maybe it was ‘cause I never made more than 10 videos and thought I’d blow up. Maybe that’s on me.
+But yeah, content and me—we’ve had a rough thing going on. Still, I
+really
+want to grow. Not for the followers or the fame. Just for fun. Because deep down, I know creating is fun. And maybe, just maybe, this will be my backup if AI ever wipes out all the jobs lol. Too sci-fi? Maybe. But you never know.
+At the end of the day, I just want to build cool stuff, win people over, and have fun doing it. That’s the growth I care about.
+So, I’ve been posting a bit more on X lately—and honestly, it’s been kinda fun. My tweets aren’t stuck at 1-2 views anymore. Some are hitting 50, 200, even 500 views. Which is wild. Maybe it’s ’cause I’ve been trying to post stuff with a viral vibe.
+But here’s the thing—my follower count? Still stuck at 65. Like bro, what the damn fuck? Am I doing something wrong?
+I searched a bit and found the usual advice: “Engage. Reply to others. Join convos.” Tried that. Replied to a ton of people. Some liked it, some ignored. But still, growth? Barely moved.
+And yeah, I’ve got like 400 posts and just 65 followers. That ratio is trash. So yeah, that’s been bugging me lately. But hey, if someone out there is actually replying or vibing with me—cool, that’s all I need.
+FG
+Alright, this is something I promised I’d talk more about—but honestly, I didn’t work much on my company this week. I was just vibing. Spent time editing videos, chilling with friends… you know, taking a breather. I studied non-stop for six months, bro. I deserved a break.
+It’s not like I did anything crazy. Yeah, I’m at IIT Bombay right now, and I gave it my all. Maybe I just don’t have those “top 0.1% brain cells,” idk. Still kinda bothered I’m not getting into the colleges I hoped for. It’s insane.
+Anyway, I’ll give you just a
+tiny
+sneak peek of what my company is about. Not much though—I’m not ready to spill it all yet.
+Modern-day education is stuck in the rat race of degrees and certificates. What if there was a place where people simply worked on shit they were passionate about. I want to prove that if you simply work on things you love, you’ll find greater success and enjoyment.
+If you ask me what my dream is right now—it’s this.
+I want to create a space. A place where people work on stuff they love, not chase degrees. Something I wish existed for me. And now, I want to build it for everyone.
+But I’m not delusional. I don’t have 5-6 crores to buy a building and beg the government for approval. That’s not how it works. I have to start small—really small—and level up from there.
+This company, this project… it’s not edtech. It’s not an “education company” either. If I had to call it something, maybe it’s a
+dreamer company
+. Yeah, weird, but that’s the vibe.
+It’s all about starting tiny, staying real, and building toward something huge. That’s the plan.
+that’s all from me
+tata bye bye
+Shrit
+
+================================================================================
+
+## Someone's BACKK
+Date: 2025-06-01T12:41:33.495Z
+URL: https://shrit.substack.com/p/someones-backk
+
+yo famm
+how’re you guys today long time no see huhh
+lol it feels so weird writing this but we’re so backk
+so if you don’t know I have been offline for 6 months because I was studying for my exams for college
+so shrit how did it go?
+it was decent I am not getting into top colleges, that’s all I know
+shit i was so underground it feels weird that now I am kinda free and have nothing to do, but I have some crazy ideas
+also i have been following with AI very closely how fast are they going shit, these AI Agents shit is too powerful
+to show you if you have seen my previous website:
+https://x.com/Shrit1401/status/1821130267211264155
+this took me 2 days to make with all alignment text and all
+and the new site: https://x.com/Shrit1401/status/1929148028100681756
+took me again 2 days, well you can say yes the site was already live, and content was written but the second website is just soley made with cursor an little help of mine with prompting but that’s everything else is created by
+it’s so cool, thankfully cursor had an student thingy going on which gave me pro subsciprtion for a year, it’s actually coding on steriods
+apart from it yup you’re cool boi is back, and doo see the new site I really have made with love:
+http://shrit.in/
+Job Market
+Yeah, after watching so many reviews on colleges and doing a lot of random-ass YouTube watching on colleges, I found a very clean peak and downfall in the job market. Like, I studied the market just for fun and, you know, for the colleges and what is the status right now in the job market. The job market was something like, in 2020 or 2021, the companies did a lot of hiring because they saw a lot of boom in the tech sector because of the COVID. And now when, you know, everything is normal, these companies realize that they don't really need so many ppl. So they are, you know, laying people off. Also, another reason is so many crazy AI agents which are coming along the way. Like, these agents are really, really cool and really, really powerful. So, right now, the trend is, if actually you make some AI agent, which will help the masses, you can really create a million-dollar company from my research till now.
+Apart from it, I think the jobs are going to go much, much lower in CS space. Which basically means getting a job in India right now is really, really difficult. And it's not really going to be easy in the future. So, what is the best way, like, if a guy like me who is just going to a college, what should he take, what should he do? For example, like, I don't really want to do a 9-to-5, because I really like building. And if, you know, I build a company and it really grows big, then I am really good on my own. Apart from it, you know, worked in agencies, so I have an idea that and confidence that I can build an agency of my own.
+Apart from it, I just feel like ECE (electronics) sector, will actually face a lot of boom. Like, NVIDIA, if you know, is, you know, they secretly gone to the top, just because they were providing computing powers and everything to these OpenAI and antropic. I feel like that electronics is going to be really big. Apart from it, I really feel like content field is going to be really big, because now AI is coming, AI is everywhere, text, images, videos. Story would be very important thing. Why? Because AI really can't match your story. AI cannot really, can very well make stories, but the authentic, real stories with unexpected turns, I feel it can only happen in a life, or in a story, which is life-inspired. Yeah, apart, so, if you know where I am going with it
+I am going on all in on youtube
+(i am gonna try making a video, honestly haven’t even written the script yet)
+Next Big Thing??
+Now, if you know me, then you will know that I really can't sit at one place and just chill. My exams are over. We are starting something big. We are starting something new. So, where I am going to do it, how I am going to do it, what I am even going to do it, is all in the future. Right now, I just want to say you that we are going to go big.
+Actually, I had a talk with someone. They said me that, yeah, doing agencies and stuff is fine. Making a business of like a thousand, five thousand, ten thousand dollars MRR is good. But what then? What are you going to do next? Then I was like, oh shit, I haven't thought about it.
+After giving a lot of thought, I realised I just want to be very, very big. I will take risk, which is worth the risk to be big. For example, whatever I am opening, I really, really want to fight with giants. I want to fight with Apple. I want to fight with Google. And I want, I will be fucking the next big thing. But in order to be the next big thing, we are going to take some small, small steps. So, that's what we are going to take.
+That's a lot of spoilers for now. I am going to meet you in the next week and I am going to talk a lot about it. Till then, enjoy this crazy little peak image. Thanks.
+
+================================================================================
+
+## gone....
+Date: 2025-02-12T08:53:37.358Z
+URL: https://shrit.substack.com/p/gone
+
+Shrit is coming back soon
+STRONGER
+
+================================================================================
+
+## Chemical reaction boooom
+Date: 2024-11-14T18:41:07.047Z
+URL: https://shrit.substack.com/p/chemical-reaction-boooom
+
+pretty busy check this out
+tata will update you later
+shrit
+
+================================================================================
+
+## when you study and still fail terribly
+Date: 2024-11-08T06:17:38.627Z
+URL: https://shrit.substack.com/p/when-you-study-and-still-fail-terribly
+
+Hey everyone, this week literally flew by—I swear it feels like I just wrote last week’s update yesterday.
+btw if you don’t know this little cute guy’s name is
+MILO
+Honestly, this week’s been tough to write about
+. How do I even say that I studied all week, only to end up with really disappointing marks on the mock papers?
+So yep, I tried to study.
+Honestly, man, it’s just not clicking for me—I tried, but…
+I don’t have any right to say it’s not for me until I finish it.
+Once I’ve achieved it, then I can decide if I want to keep going or not.
+But damn, studying is hard, and it’s so much easier to just get lost in YouTube or whatever.
+It’s way too easy to get lost in your thoughts and just not study, but yeah, I’ve got this
+Forge zone @$?
+I’ve started on the backend—well, somewhat started. I’m also thinking about looking into how I’ll market it eventually,
+but honestly, maybe not right now. I’ve got way too much on my plate, and I’m not exactly loving it.
+Study #$%
+Imagine studying for hours on end for days, only to realize you’re barely halfway through the syllabus for an exam that’s in 80 days—and you've had two years to prepare for it.
+Now, you’re taking mock exams and scoring terribly. It’s disappointing, but that’s just the reality.
+And yet, that’s also where the challenge lies.
+Even though it feels like you’re just falling behind, you keep going. You keep studying, even when it feels like your efforts are adding up to nothing.
+If I ever face a situation like this in the future, where it feels like all my effort is going in the wrong direction, how will I handle it?
+Remember, no matter how tough it feels, hard work never goes to waste—it’s always a gain, wherever and whenever.
+that’s all
+whenever my life gets a little interesting I’ll be sure to tell you
+tata tata
+bye bye
+Shrit
+
+================================================================================
+
+## it's time but it's pain in
+Date: 2024-11-02T11:31:10.844Z
+URL: https://shrit.substack.com/p/its-time-but-its-pain-in
+
+Hey everyone, it’s Diwali time! Yup, had a nice, long holiday break from school.
+PS:
+Diwali is an Indian festival where we burst crackers and celebrate. Fun fact: burning crackers is technically illegal in India, but we’re like undercover agents—crackers somehow get imported and used anyway. The funniest part? Almost everyone bursts crackers even though it’s banned, lol.
+Lol, I got a Diwali photo where I actually like how I look, thanks to a Snapchat filter—even though I don’t usually use them. I’m all about natural beauty, you know? Too many edits just mask everything; what's the point if the image is so smoothed out that it doesn’t even look like you?
+Do you know what really stings, though? When you’ve got a solid friendship, but you have to let it go because school or college is ending. Yeah, that’s what everyone’s been telling me lately. But honestly, I’ve been so swamped with new ideas and study sessions that I barely let myself feel those emotions. I know it'll hit me hard later, but I’ve made peace with it for now. It’ll be fine.
+For real, when I make it, I’m going to appreciate every person who’s been part of this journey—whether they supported me or not. My friends and family are going to get their share; I’ll make sure of that.
+One more thing I realized: you never really know where life is taking you. All you can do is hustle hard and trust the process. That’s how you become unbreakable. To hit that next level of success, you gotta move fast, work smart, and fuck everyone who doubts you.
+a little idea that joey gave me, not that bad imo but I don’t really believe these things
+but that’s not the case with my little course thingy, I am moving hella slow with it
+Forge Zone??
+yea, I like how things are going on with this
+We’ve been working on this for 4 weeks now, and the frontend is about halfway done. I know I’m moving pretty slow with it, but I’m focused on designing everything just right and building the dashboards and all that. I don’t know, whenever I get a break and some free time, I work on it. Not gonna lie, it’s actually pretty fun.
+Studies
+I’ve started studying 8 hours a day. Do I like it? Hell no. But am I getting better at it? Maybe.
+I have also started to get my 8 hours of sleep each day, but I don’t know, studying really takes a toll on my mind and makes me want to sleep even more. But I’m pushing through it.
+Mom, your boy’s a fighter.
+Anyway,
+November 18th
+is when my preboards start.
+As for IIT/JEE prep, the test series kicks off from Monday, so I’ll have a paper every weekday. It sucks, especially since I barely did 11th-grade work, but I’ll figure it out somehow.
+At the end of the day, I’m glad I’m at least trying to get into it. I’m trying to win.
+that’s all for this week
+tata tata
+bye bye
+shrit
+
+================================================================================
+
+## 1 / 6 that's how much i love my life lately
+Date: 2024-10-25T18:18:03.384Z
+URL: https://shrit.substack.com/p/1-6-thats-how-much-i-love-my-life
+
+Yo franz!
+a guy from my coaching drew me it’s crazy good, isn’t it?
+Today, I participated in a CS competition.
+For context, I’m not great at DSA or LeetCode. I tried learning them but didn’t find the time (or motivation) to get really good, so I left them halfway. Still, I keep going to competitions because being around people in the field feels good.
+This competition was different, though—it was a mix of math and coding. Basically, you’d solve a math problem, and then code up a solution to get the answer.
+I did pretty bat tbh
+out of 6, I managed to do 2 questions, I mean it’s embarrassing telling ppl I have been coding for 5+ years
+but that’s the truth
+that’s basically means to work hard
+I have this in my post-exams todo list
+pain helps you grow
+20-30 ppl open my emails each week it’s crazy thank you, I always imagine you guys are sitting in a classroom where I am telling you guys I am telling about what I did each week crazy
+Forge Zone?
+well, I have to update my day I haven’t been posting for a long time, shit
+well, my papers were going on how could I lie and post random shit??
+https://x.com/Shrit1401/status/1848689566409961771
+Even though I’ve started building the front end—why? I don’t even know, but it feels like there’s
+some
+progress, lol.
+But I’m really into this concept. Along the way, I met a guy who scaled his business solely through social media, which is exactly the kind of approach I was looking for!
+It’s crazy, isn’t it? When you give something your full focus, it’s like luck starts working in your favour.
+Luck favours the bold.
+StudieS???
+Exams took over my whole week. I might’ve messed up in English—who even messes up in English, right? But my Physics exam went surprisingly well; I studied a ton for it, so fingers crossed.
+Another random Shrit observation:
+I don’t get why people hide how much they’re studying, only to say it was "luck" when they score well. I mean, if you worked hard, just say it! What’s the worst that’ll happen? Whether you score high or low, you’ll learn something about your approach—or get some new life advice out of it.
+When I scored 100 for the first time, my whole batch knew about it!
+that’s all from my side I am gonna go now
+bye bye
+tata
+gn
+shrit
+
+================================================================================
+
+## giving 4 papers in 2 days is s**t
+Date: 2024-10-17T16:23:43.981Z
+URL: https://shrit.substack.com/p/giving-4-papers-in-2-days-is-st
+
+Hello, people! Hahaha, I told you guys I wouldn’t be building anything because of my studies.
+Technically, that’s not wrong—I
+am
+studying... (okay, no, I’m actually not studying, just chilling. I haven’t been in the zone for days now).
+Forge Zone?
+OKAY YES LOOK AT THIS LOVELY TWEET I MADE YESTERDAY
+So, yes, I’m building a community for the world’s best web builders! You might be wondering: how, why, where, when? I get it—there are a lot of questions, and my answer is... time.
+Since I planned not to build anything, I got so freakin’ bored just studying. I wanted to bring one of my good ideas to life, and I’m going to take my time to build this application. I love the idea, though I haven’t fully fleshed it out yet. Here’s the concept so far:
+Simple courses that college students can easily follow, with tech that I’ll keep straightforward.
+Students can apply for jobs or internships. I’ve spoken to a few people with job openings, and they’re happy to list them in the "work" section. To apply, students will need to complete specific courses.
+Builders can meet other like-minded creators. I’m thinking of adding Discord integration so certain builders can access secret channels, meet up, and collaborate on cool projects.
+Benefits:
+College students can build their resumes.
+Gain real-world experience with projects.
+Apply for internships or jobs, get paid, and earn experience at the same time.
+actionable courses for students who are learning shit in their college
+This is a
+very
+early idea, but I plan to first build the application, then add documentation-level courses, and finally create video walkthroughs for each one.
+So, why another product? Am I just some shameless kid who yaps about building stuff in every newsletter?
+Answer: Yes, I am shameless. Any problem with that?
+Lol, but seriously, I’m taking my time with this one. I’m going to try pushing it on social media this time, inspired by the case study of the Berise app.
+I love Desmond (creator of berise), after my papers, I wanna try to provide such motivational content:
+check out the desmond here
+so very basic ideas but let’s see :)
+Studies?
+Okay, so I want to be real.
+I
+hate
+studying.
+I’ve been trying to study something—anything, really—but I absolutely hate it and just don’t want to do more. But I guess I have to keep moving forward.
+I know I yapped about it a couple of posts ago, and I guess I just need to keep going. I try to stay consistent, try to study something, but I know it’s not enough. Still, we have to do
+something
+, right?
+that’s all
+tata tata
+bye bye
+shrit
+
+================================================================================
+
+## i am sick of being sick dammit
+Date: 2024-10-11T18:20:52.651Z
+URL: https://shrit.substack.com/p/i-am-sick-of-being-sick-dammit
+
+I'm writing this newsletter 400 miles away from home, surrounded by a bunch of my maternal side relatives—all kids, lol. They're completely fascinated by my MacBook (honestly, one of the best feelings ever).
+The journey took around 6-8 hours by car, and for the first time, I brought my dog along.
+My dog was sitting on my bag—so cute, awww!
+Everything was going smoothly until we hit a restaurant that didn’t allow dogs. Man, that was such a hassle. As a dog owner, how do you even find dog-friendly restaurants? And in India, there are way fewer options. Anyway, we got past that eventually. Took me a while to update, but I finally did it. Business idea, maybe? Lol.
+Honestly, it felt like a bit of a waste of time, but since I was in the car, I took the opportunity to update my website:
+The homepage is now much cleaner.
+I added a page showcasing all my projects.
+Check it out here!
+I’ve got more projects to share, but I’m thinking of making an archive page where I can just dump all the random stuff I’ve created.
+and I finally took some time and wrote down my past life
+check it right here
+Studies
+Yes, lol, I did study!
+I even made a timetable, though I only managed to finish about 20% of it. I was a bit bummed, but I guess that's just how it goes. Still, I did get some studying done, which I’m happy about.
+That said, my motivation is definitely lower than when I started, and I think it comes down to this:
+You only get a good amount of motivation when you actually enjoy what you're doing.
+Lol, but yeah, that’s the gist of it.
+Tata for now,
+Bye bye,
+Shrit
+
+================================================================================
+
+## My Mindset Isn't Letting Me Quit
+Date: 2024-10-02T16:12:58.917Z
+URL: https://shrit.substack.com/p/my-mindset-isnt-letting-me-quit
+
+hello ppl,
+today’s the 2nd of October, an international holiday for Gandhi Jayanti
+if you don’t know Gandhi ji was an iconic figure in India who helped a lot in getting freedom for India in 1947
+Yes, baby this newsletter gives you fun facts :)
+emotional shrit down so please be fragile
+I have been thinking about this a lot (from the start of September) …
+anyone who doesn’t know I am in 12th, if you’re not from India then you can say I am in the final year of high school,
+Little Information on Indian Education
+If you're not from India, you probably don't know that Indian education is very challenging. There's an exam called JEE Mains, considered one of the toughest in the world. Most students who opt for science usually take this exam, and about 7.7 lakh (770,000) people sit for it every year.
+When you pass JEE Mains, you get a qualifying percentile. Then you have to take another, even tougher exam called JEE Advanced. If you're selected in Advanced, you get into an IIT—the most prestigious college in India.
+I'm part of the 2024 batch, one of these people. I never really took JEE seriously.
+a big fat Indian dream of students as well as parents
+However, I'm average when it comes to studying. I score average marks and put in an average amount of effort. What I truly love is building new things and talking to people.
+Studying isn't one of my favorite activities...
+Why? I don't know, honestly. I just don't enjoy it much. Don't get me wrong—I love learning, especially calculus and math and some DSA and of course coding.
+But what I dislike is dedicating all my time to studying.
+Why?
+Because then, when will I have time to build cool stuff?
+Recently, I got my results and did some calculations. There are only 98 days left for JEE Mains.
+I scored terribly on my school papers...
+FYI, the difficulty of JEE Mains is greater than that of school papers.
+I thought, "Yeah, I'm average. I'll study a bit more and do stuff," but...
+I know studying isn't my thing, or maybe these challenges are too much for me.
+These are the words of a coward who's lying because he knows he's not up to the mark for IIT.
+And I'm glad to say it. If I'm fighting a war, why should I fight half-heartedly? If I'm spending two years studying something, why am I still doing it half-heartedly?
+Ten months ago, I built this thinking about what I told you about IIT. I'm a different Shrit after 10 months—I hate to quit, and I hate to lose.
+I hate to lose without trying.
+For the past few months, it's been stinging me, so I can tell you guys it's the right thing.
+My mindset isn't letting me quit.
+-shrit
+I'm furious with myself. Why the hell did I waste so much time? My dream isn't to get into IIT but to try. It's okay if I lose, but if I don't give 100%, I might carry this guilt of not trying for the rest of my life.
+I don't want to quit.
+that’s it, damn motivation these words give me is insane
+but yes that’s all I wanted to say
+Changes in Newsletter
+there’s gonna be little change in the newsletter
+I've noticed a drop in the opening rate of these newsletters, which is pretty common. I'm not promoting them anywhere, and people aren't finding them interesting when I tell them I haven't built anything new. LOL!
+so for a few months, I am stopping building new shit, but I am keeping this newsletter open where I will tell each week what I study what problems I had to study and what changed in my minds sets, along with that I’ll tell about myself normal life though I don’t have a social life I’ll try to make my newsletter fun
+but yeah to anyone reading this, I think I am in love with you
+that’s why I’ll let you go [love is when you let go]
+feel free to unsubscribe from the newsletter as now you’re gonna see content for which you didn’t subscribe for
+but yes I want to tell so many more things
+how I got my first dollar
+how I started coding
+how I fucking died while playing cricket
+how a single person saved me from depression, perhaps forever
+I want to do all this stuff believe me, however, the time is not right
+But remember, I'm going to be a sun one day because I will damn well buy all the sunlight I need to shine.
+Accountability test
+okay, so I got very bad marks (just passed) in all of my subjects, my goal?
+okay I want to study my whole class 12th by this month
+because on 18th November I am gonna have full syllabus exams, I wanna show myself that I fucking got it
+it’s very very very hard, but I am focusing on school-level shit, made a simple timetable and got everything now I just have to study
+that’s all
+tata
+bye bye
+shrit
+
+================================================================================
+
+## Suffer is another name from SHRIT
+Date: 2024-09-26T19:58:31.387Z
+URL: https://shrit.substack.com/p/suffer-is-another-name-from-shrit
+
+phew this is gonna be short, weird how I got only 30% of emails open last time maybe I have started writing a shitty newsletter lol
+don’t worry I didn’t work on anything this week as well cause of exams, but I am gonna make the next newsletter very very long I promise, I mean why are you even reading this there’s nothing I have this week apart from studying
+On Monday they will show the results wish me luck I want to pass
+me with my coaching buddy It’s a cute photo right??
+thanks
+bye bye
+shrit
+
+================================================================================
+
+## phyicscs more like kissassics
+Date: 2024-09-20T18:25:53.395Z
+URL: https://shrit.substack.com/p/phyicscs-more-like-kissassics
+
+hello ppl
+short for this week because haha I forgot to work was doing physics
+I made this in 2 weeks pretty slow, pretty bad, with no end,
+https://nofriendzone.shrit.in
+pretty weird but free let’s see
+a random advice I received, haha! No, I'm not going to follow it—I've never been drunk, I’m just a kiddo
+that’s all will talk a lot in the next newsletter,
+bye bye tata
+shrit
+
+================================================================================
+
+## i like maths until it's the numbers :)
+Date: 2024-09-13T14:55:59.295Z
+URL: https://shrit.substack.com/p/i-like-maths-until-its-the-numbers
+
+phew gave the physics paper and it was fucked up….
+it’s kinda fascinating how I avoid studies got so much progress this week as well even though, I just gave a paper and have another on Tuesday
+TL;DR:
+Made progress on projects despite upcoming exams
+Got a YubiKey for enhanced online security
+Launched a YouTube channel for HokageOS, reaching almost 200 views
+Created a Discord channel for HokageOS community
+Considering shorter 10-20 minute videos for future content
+Made first "sale" by asking for a small payment to update HokageOS
+Participating in Supabase 10-day hackathon
+i got a yubikey woho lesgo,
+If you don’t know then a YubiKey is like a digital bodyguard for your online accounts - it's small, tough, and makes hackers cry themselves to sleep. It has a fingerprint so sexy right??
+Though I don’t really have any use for it I have a pretty tough password, but now I think I can release my password publicly right?
+first of all, I don’t give a sh**t if you’re a friend or foe, subscriber or not, boy or girl, fat or thin….
+go and subscribe to my
+youtube channel
+finally, we have hokageos on the yt lesgo ppl, it took me so many hours apart from this 1 hour to record + edit + keep my dog away from barking
+It might seem like a small thing to you as readers, but I've launched over 10 YouTube channels in the past. I'm in 12th grade and started making videos in 7th grade, so that's about 5-6 years. None of those channels ever really took off. I always gave up early—I'd release 4-5 videos but then abandon the channel due to lack of motivation. But that's not the point. This was the first time in all these years that my videos hit almost 200 views! It's crazy, right? Previously, I used to have just one subscriber (which was probably me). So having people actually watch my videos is amazing! It's like, let's go nobody is stopping us from reaching a million subs now fr dudes!
+Apart from that join our
+discord channel
+for hokage os, I never thought we would have any ppl there but it’s 8 ppl talked to each one of them pretty cool tbh
+however I have a confession: making long-form content and getting 200 views is pretty great. It's really motivating, and I'm looking forward to creating more awesome shit. The thing is, it's hard. I don't want to make another 1-2 hour video for everything I'm doing. It's tough to edit such a long video, plus it can get boring. I want to do stuff more freely, so I've thought about making 10-15-minute videos. Why? Because I think people will love to see a 10-15-minute video about what I'm up to. I love watching
+Dani
+, for example. I don't know why he stopped making videos, but I want to do something funny like that, (I try to be funny, but I worry it might come across as cringe. Does it?)
+After this, we were about to move on to recording the next video. Prateek's doing a pretty good job—I have nothing to do but wait for him to record and send it to me. I don't want to give any spoilers, of course, but if you don't know what I'm talking about, check my earlier week post and you'll understand.
+Back to the story: a guy reached out to me on Discord. We had a good chat on the server. He's a year younger and he's in this newsletter too (yo V—I don't remember your name, so V it is from now on). We were talking, and he was really fixated on updating the HokageOS code to make it a real extension. For me, it was just something I thought was cool, but I figured no one actually cared. Like, for real, when I mentioned it to Jesus, he said, "Unoriginal and it's basically a glorified favorites bar,"(fucking love this guy) which proves my point. But this guy wrote a giant paragraph urging me to update it. Of course, I couldn't say no to such quality feedback, even if I didn't initially want to do it. I found it exciting, and that's when I played my final card.
+I asked him for 50 rupees, which is like 60 cents or something. I know you'll say, "What the hell will you do with this much money?" Honestly, nothing. I just found it fascinating that this guy, who I think I've talked to heart-to-heart for like 30 minutes, was ready to give me money even if the work wasn't done yet. At that point, I realized it was a fucking sale, and what I'd built was trust that I would do it. That's what I've been trying to do all along. And then I realized
+Nobody is ever fully prepared for sales, but you're always ready—you just don't know it.
+yes kiddos everyday week we learn something new, that’s the point of this newsletter
+relax, V. Your money is in good hands. I'll start by buying one egg, selling it, then buying two eggs, selling those, then buying a chicken, and eventually a factory. I'll turn your investment into something you never imagined…….
+nope not happening, i am gonna eat ice cream out of it
+Apart from that, guys, check out Bonzo. He was the filmmaker for Buildspace, and he made this crazy video. I've started to take a lot of inspiration from it and want to make something cinematic myself.
+At the end, I'm also taking part in the
+Supabase 10-day hackathon
+to create something I really have no clue about .
+Someone please tell him he has papers until the 26th, and he's here attending this crazy hackathon!
+—Worried ShritZ
+I actually want to tell you a lot about what I'm thinking: what I should do with business, how I'll be making money, and why I suddenly got a fucking itch to make videos. But I have a pretty good headache right now. I'll talk about it once I'm free—probably at the end of the month, if I don't forget.
+keep shitting, keep building
+bye bye
+shrit
+
+================================================================================
+
+## went to a party realized i have toomanypeopleoneplace anxiety
+Date: 2024-09-05T20:45:55.537Z
+URL: https://shrit.substack.com/p/went-to-a-party-realized-i-have-toomanypeopleone
+
+serious shrit down here….
+If you’ve been keeping up with my newsletter or chatted with me, you probably know that I’m all about going viral. Why? I used to think going viral was the magic bullet to getting your product out there and making things happen. If I couldn’t get something to go viral—even if it were free—I felt like I’d never get anyone to pay for it.
+But that wasn’t always my mindset. After diving into Buildspace and getting hooked on Farza’s newsletters, I saw how his projects like mood.gg blew up instantly, and then the same thing happened with Kanga. I got sucked into this idea that I needed to get tons of traffic on my site before anything else. I love building, but coding alone doesn’t pay the bills, right? That’s why I started this newsletter in the first place. To be honest, I kinda copied Farza’s newsletter format. But is copying someone really that bad? I mean, sure, I might be a bit obsessed with Farza, sending him my newsletter every week (and will continue to do so),
+but when I was working on the "About" page for this Substack, I had a realization.
+I needed to shift my perspective—from just a nerdy coder to a cooler entrepreneur who could sell ice to a penguin. Yesterday, I had this bazunga moment. I realized that I was straight-up trying to copy Farza. Remember
+ValoMusic
+? The project I created? It was basically a knockoff of Farza’s mood.gg, and that didn’t just make me feel sad—it made me feel like a total idiot. I started to see that everyone has their own story, and who am I to copy someone else’s story (just like fabels in Omniscient Reader Manwha)
+For the past month, I’d convinced myself that marketing wasn’t for me. After launching three products in a month and none of them going viral, I felt totally defeated. But then it hit me—why was I so hung up on going viral? If a product didn’t go viral, maybe there was something wrong with how it was being distributed. Sure, virality depends on a bunch of factors, but why was I chasing after this one small thing?
+I’m usually the kind of guy who stays motivated and loves connecting with people and building things together. But over the last month, I realized I wasn’t having fun anymore. I wasn’t enjoying building things or chasing views on Reddit and Twitter. What I love is talking to people, getting their thoughts and advice, and building stuff with them. I realised I love the process of building more than the idea of being famous.
+I’m still in school every morning and have coaching on weekends. I think I wanted quick success so I could focus more on building, but where’s the fun if it’s not a slow burn (that’s what she said)? I have so much more to say, but with exams coming up, I’ll save the rest for a longer write-up later. Promise.
+I am thinking of writing it in more detail probably won’t mention farza there (cause you ppl are mine :) ) whatchu you think should I post this in detail on Medium?
+what a way to start a newsletter, apart from that this week was kinda fun, I met with a lot of ppl on Discord, I made a small video in Reddit for the hokageos, and many ppl started asking me for the yt tutorial for the same, if you were reading my newsletter you will probably know that I was starting a youtube channel and when ppl started asking for a tutorial I thought why not just make a youtube channel where I tell my story in my own way? correct I am not sure how this is gonna turn out maybe ppl watch maybe they don’t
+but tbh who knows what’s gonna happen, but you will never know if you don’t try
+smarty shrit
+I was actually busy with studies i did record the tutorial halfway but not fully, i got many new signups from my newsletter from the reddit post too
+one of the guys I reached out to was Prateek pretty dope guy who has a job, he said he would love to do a project with me, and I was like sure
+we made this thing together please don’t mind this demo it’s very raw and tbh i don’t even know what I am even doing it was 2 am what do you even think?
+if you still didn’t get it, then basically it’s an ai based storyteller, I and Prateek worked on this it takes the prompt from gpt4 vision and uses eleven labs to get the results
+After we wrapped up the project, I asked Prateek if he was down to record a video for YouTube about it, and he was totally on board. So, this weekend, after making a few more tweaks, we’re going to record the video and post it on YouTube! Stay tuned for that.
+oh, also he’s on this newsletter too yo Prateek good work bro let’s fucking make a million subs and earn some money
+apart from him I randomly got into a server where I met lots of crazy ppl, some of them are
+J
+esus:
+I don’t know their real name, I think he’s from the Bay Area, a total party freak, he built something called Party Social, where you can see the parties which are being hosted around you, he’s a great guy I have even asked him some of my personal problems, and he gave me no filtered answers dope
+Shane:
+we haven’t talked much but I know he’s a college student and he loves coding he started this faceless channel, and he’s getting straight 13k views, once he’s eligible for monetisation which might be soon if growth is like then he’ll be making a bank
+Mak:
+this guy is a celeb like a look at his
+Instagram
+or
+twitter
+, this guy doesn’t need to think about how to promote his idea he literally got the audience to do it for him, I personally had a late-night talk with him he’s the crazy good guy I like him a lot, will def want to work with him in future, oh btw this is the guy who made me realize that I was trying to copy farza, good one makk
+It's been such an honour, you know? Meeting random strangers, talking with them, and creating these fun, quirky projects together. It’s honestly the best part of this whole journey. Once I get rich, I swear I’m just going to keep doing this—building cool projects with people, just like I’m doing right now. That’s the dream!z
+goodie return gift
+look what my childhood friend gifted me it’s so cute
+and the end….
+I fucking met alec the guy whose newsletter I have been reading for a while, he’s the founding member of the buildspace and zipschool, you can say he’s the engineer for farza’s idea lol, kind of irony with what we started this newsletter but in the end start
+if we started with buildspace let’s end with buildspace, listen to the audio down below, alec sent me personally nice advice ;D
+bye bye
+shrit
+
+================================================================================
+
+## i have 28 hours of backlog in sleep
+Date: 2024-08-29T17:51:34.476Z
+URL: https://shrit.substack.com/p/i-have-28-hours-of-backlog-in-sleep
+
+Yo what's up, people? How's everyone doing? Honestly, I really wanna crash right now, but I guess I should fill you in on my week. So, I've got exams coming up—fun times, right? The only productive thing happening is in chemistry. I mean, let’s go, we’re actually getting some chemical equations right! Pretty awesome, if I do say so myself. But I know you’re not here for the chemistry talk, so let's get to the real stuff.
+I really like this meme—I think it was featured in one of the Y Combinator videos—it’s all about just shipping, man. Like, what’s the harm, broooooooo?
+So, for starters, I made a small thingy that I think is pretty cool. I was super inspired by
+Buildspace OS
+—like, very, very much—but I thought, why not make it a bit more customized, you know?
+So, I whipped up something—not for publication, traffic, or making bank—just something I thought would be cool to build. If you wanna check out the code, maybe tweak it or add some new features,
+go for it!
+Just reply to this email if you’re gonna do it. Oh, and there are some challenges. The solutions? You can find those in the
+Discord channel
+—just join up, they’re all there.
+Besides that, yesterday I had a chat with
+Milan Amin
+. The guy’s got a lot going on—can't remember all the details—but he’s into marketing and is rich, so yeah, perfect at his job.
+JACKPOT
+I love his purpose, he’s helping ppl build their confidence, also he’s in this newsletter, hello Milan wassup bro!
+this guy is so dope he has worked with ronaldo (trust me he showed me the photo) and he’s a pretty good friend with
+beerbiceps
+I asked tons tons and tons of questions like everything from hustling to personal problems to you know marketing!!
+I bombarded him with tons of questions—from hustling to personal stuff to marketing! He broke it down for me, and here’s the gist: Start a YouTube channel and upload videos
+so babe we are starting youtube :)
+Now, why YouTube? Why social media? Why all this? Well, I’ll dive into that when I upload my first video. That way, if I say I’m gonna do it and don’t, I’ll feel guilty as hell, lol.
+You know what’s even weirder? How we met. Milan actually liked my idea of “trying to grow from my pain.” Now, if you remember, I had this idea for an app that didn’t really pan out, but here’s the funny part—I never thought those past efforts, which I had totally buried, would come back around. Out of the blue, he messaged me. Imagine that—a guy who does marketing for some multi-billion dollar company reaching out to someone like me, just trying to show up and build something. And it happened right when I really needed guidance in marketing. Wild, right?
+Maybe fate really wanted to step in and show me something, who knows? I’m not sure, but let’s see what his advice does. And hey, Milan, if you’re listening, just a heads up—I’m gonna bug you a lot when I think I’m making progress. I’ll keep at it until you block me, hehe!
+oh btw no video but you can subscribe to the channel here
+*if you think the name’s weird/funny/cool dw that’s how it's supposed to be
+that’s all, it wasn’t all productive cause UK papers ugh sucks
+anyhow ycombinator, it is also super firey I watched something like 6 / 20 videos and guys hear me if you’re ever gonna start a startup just watch it man it’s so valuable
+also, Milan told me to watch hormozi’s course I think I’ll do that too
+so that’s all folks
+I am gonna hit the bed and resolve my backlog
+bye bye
+shrit
+
+================================================================================
+
+## Why is it so hard to have users use your site ughhh
+Date: 2024-08-22T17:31:35.444Z
+URL: https://shrit.substack.com/p/why-is-it-so-hard-to-have-users-use
+
+hello, ppl again welcome to shrit’s diary of nothingness
+this meme really resonates with me ahhhhh. Anyway, some crazy stuff happened this week. The results are out, and I thought it went great, but it didn't, lol.
+if you really want to know my marks solve this calculus hehehe, lmk if you find the answer it’s not that hard
+
+many new ppl came in and I have a total of 52 ppl in here which is pretty shocking, the motivation I have got from you guys is insane, I promise the day I get rich I will make you guys rich too.
+also if you’re someone you gave your email to the painify waitlist and found this email I have added you to this newsletter, if you find me annoying feel free to unsubscribe :(
+okay so if you don’t know I started an app idea in my previous post, the app is called painify, and it helps you to grow from your pain you
+check it out here
+if you wanna read the whole, week 2 post check it here:
+okay so this Friday I brainstormed some ideas on how I can have some users who will check out the website and add their email to the waitlist, firstly I collected the names of some subreddits which post content about mental health, addiction, self-help and stuff like these
+So, I had this brilliant idea while writing: Why not research the topic, "Can you grow from your pain?" I figured I’d log my journey on a subreddit for 7 days straight and then, on the last day, I’d drop my app idea. I mean, if people were gonna read me rambling for a week, surely they’d sign up for whatever I was selling, right?
+Well, it sucked. Big time. Why? Because after I posted about Day 1, I watched 10K people vanish into thin air. Then, after Day 2, I lost 2K more. At that point, I realized either I was writing something truly awful or people were just bored out of their minds hearing about the same thing over and over.
+To give you an idea of the disaster: my first post got 29K views. Day 1? That dropped to 18.9K views. By Day 2, I was down to around 16K views. Yeah, it was brutal.
+So, by Day 3, I figured out this was a dumb move. All I did was widen the funnel, and instead of dragging it out, I just spilled the beans about the idea and the app. Lesson learned.
+you can check out the final post here
+unrelated but I started learning about SQL in school, FYI it sucks I mean I did fuck my ass and learnt about postgress omw but now they want me to learn about SQL wtf that language is it has 1000 different keywords and I have to memorize them I really want ppl to stop teaching SQL.
+okay back to painify, I was pretty disheartened, with my failed strategy with painify, and that’s when I found ycombinator, those guys are a group of investors investing in early startups, I knew about them since
+farza mentioned about them in his newsletter
+, but got their video in recommendation feed, pure treasure it’s great y’all must also check it out
+one video which really stood out for me is this one:
+this video made me realise that painify is a total loser buisness for two reasons:
+I can’t develop apps on mac:
+I mean I can develop apps, but I have the 256GB variant I won’t have storage left if I start making apps, shiiiiiiiiiiit
+ppl doesn’t like sharing their secrets:
+well that’s the reality, i tried to talk to many users try what will be a fix, but nothing satisfactory came out of this
+then talking with our big boy John, I asked him what I could do and his reply was
+too real but I like those ppl who give real advice thanks john, btw give him a
+follow here
+but yep after talking with him I officially ended my journey with painify, uhuhuhuhhu….
+so what did I do the rest of the week? cry about it in the corner
+no of course not, we go to the next idea
+okay, so the thing is I was a big fan of Valorant I used to play it for hours, and randomly I got the idea to work on making music for each agent, so I made a list of agents with their music so that I could make a website out of it. (it took me 3 days to just gather the music)
+check the website here it's pretty cool
+okay before I talk about how I did the marketing of Valo Music, let me talk about some mobile phones in the market because my brother subscribed to my newsletter just for that, so
+kittu bhaiya
+for you:
+Nothing CMF Phone
+: The minimalist design screams, "I'm too cool for extra features." It’s the phone for those who want style without the wallet crying.
+Google Pixel 8 Pro:
+The AI in this phone probably knows what you want for dinner before you do. Plus, it takes pics that make your life look way more interesting.
+Samsung Galaxy Z Fold 5:
+It’s a phone that unfolds into a tablet—perfect for when you want to work, play, or just flex in front of your friends.
+y’all can also reply to this email and let me know about some more cool tech
+So, I launched ValoMusic on Reddit and Product Hunt, and while it didn’t exactly break the internet, it did get a solid 7-10 upvotes. But wait, here’s where things get juicy: it went semi-semi-semi-viral on the Valorant subreddit! Picture it like a viral cat video, but with a soundtrack that’s all about Valorant agents. It’s not quite “everyone’s talking about it,” but it’s definitely “hey, did you see that?” So yeah, we’re kind of a big deal in a niche sort of way.
+drum roll……………..
+10 upvotes yep, you think 10 upvotes is easy? definitely not but with all of that I got something like 500 viewers in only one day, also if you saw the website I have a small survey there I got something like 10-15 survey results pretty insane for a guy like me, this little incident made me realize
+don’t run behind the users, they come very randomly
+so yeah I think I am gonna stop worrying about the users from now on and think of something, they’re gonna if I provide them with some real value (advice from ycombinator and john)
+so that’s this week in a nutshell pretty packed week tbh, what about the future….
+so yesterday I was talking with joey, oh btw hi joey, For those who don’t know Joey runs an agency in Chicago guy is pretty good, this guy matches with me, FYI we were working on
+clientbase
+together and I hope we’re gonna work on stuff in future, right joey???
+he implanted an idea in my head I don’t wanna tell you, guys, right now, very lazy to write about it, but I am gonna show you guys the work next week if what I think turns out to be real.
+apart from that, I am gonna go and binge watch ycombinator school vids peace
+bye bye
+shrit
+
+================================================================================
+
+## Got a mental idea when coming back from giving paper
+Date: 2024-08-14T16:07:41.650Z
+URL: https://shrit.substack.com/p/got-a-mental-idea-when-coming-back
+
+hello ppl first of all my computer science teacher joined my newsletter, so from now on no cursing, and straight to the shit.
+so let’s FRICKIN’ GO
+Great Ideas Are Forged, Not Found - farza
+first of all, I switched to Substack now it’s less painful and more fun to write newsletters, and omfg macbook keyboard is so sexy and comfortable
+okay so when I was coming back from giving my paper, i remembered about my last love well that didn’t end on a good note ;( but i convinced myself to just fuck it, boys were with me this night, let’s just don’t remember about the bad stuff, results will be out next week i will tell you, guys, surely
+but you know it feels weird when you know something hurts you but you still do it rightttt? yeah, so I started thinking about her again (after bois went home). After thinking for a while I got a random app idea, yeah fuck relationships ideas are what I need
+an app which helps you grow from your pain, godamn I love this tagline, it does the following things:
+tell the app about your deepest, darkest secrets—the stuff that keeps you up at night, your insecurities.
+Write your goals, imagine yourself as the best version of yourself, and write your goals.
+done! every day show up and do the shit to help you be a better person, feeling lazy? I am going to remind you of you’re worst secret which will motivate you to work more
+now I know you’re going to ask, hey shrit! aren’t there other apps just like this? you just added a feature for secrets and that also I am not too comfortable sharing my secrets, god knows to whom you’re selling this data too
+to that my reply is…… well I’ll think about it lol,
+I know that I’ll use some sort of encryption and decryption to store the data, respecting user privacy isn’t the issue, but conveying to users I am not collecting their data with privacy, that’s fucking hard and maybe my biggest problem with this whole app
+my one brain cell says:
+tbh an app where you grow from your pain is something which I require personally, I tend to distract my mind quickly, if I have something which will motivate me to stay focused that will be a jackpot.
+another one says:
+sure this will be my 83rd product I am making but if no one is using it what’s the point of having it in the first place?
+hmmm, that’s a problem eh? So I gave myself this whole month, let’s see how much traffic I can put in the app organically, I have zero knowledge in user acquisition, let’s see how it goes
+I am trying to experiment, at the end of the day app is surely gonna be developed folks
+coming back from home I made a very quick design on figma and made a very slick-looking waitlist, I didn’t believe myself, but it just took an hour or so, proud of myself!!
+check it out here
+okay great, feels like a productive day, I want to get tons of user feedback, I have done some research on reddit communities where ppl talk about their mental though many of them restrict having promotional content, but these subreddits have millions of ppl,
+what do you think I should?
+maybe make a post which doesn’t seem like a promotion but is a promotion for the app. though I am 90% sure they’re gonna delete it and ban me :(,
+try selecting a few people who will fit best for the app, and dm them with my page
+or if you think, reddit is trash, try using twitter and instagram (though I am still gonna choose both of these platforms, I do think much of the ppl hang out on reddit and talk about their problems, though most of the time ppl don’t share it at all if I find ppl on instagram)
+reply to this email and let me know what you think
+I am also thinking of uploading instagram videos, with viral hooks and all, don’t know, all my user acquisition ideas are very rough, but by next week I am sure to have some pretty good game plan
+okay, folks that’s all about my app I’ll meet you next week with how things go, oh btw a little update on clientbase, I have stopped developing it for a while, why? just it started to get a little boring lately [I’ll address this issue next time]
+bye bye
+shrit
+
+================================================================================
