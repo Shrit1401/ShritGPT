@@ -4,6 +4,26 @@ A character-level GPT trained on **Shrit's voice** — newsletter dumps, project
 
 Built for fun and demos (M2 MacBook Air 8GB friendly). Inspired by [nanoGPT](https://github.com/karpathy/nanoGPT).
 
+<p align="center">
+  <img src="docs/images/webUI.png" alt="ShritGPT web chat UI" width="900">
+</p>
+
+---
+
+## Training results
+
+<p align="center">
+  <img src="docs/images/loss_journey.png" alt="Train vs validation loss" width="440">
+  <img src="docs/images/loss_decrease.png" alt="Validation loss decrease" width="440">
+</p>
+
+<p align="center">
+  <img src="docs/images/perplexity.png" alt="Perplexity over training" width="440">
+  <img src="docs/images/training_dashboard.png" alt="Loss and learning rate dashboard" width="440">
+</p>
+
+Regenerate after training: `python scripts/plot_training.py` (writes to `output/figures/` — copy into `docs/images/` for the README).
+
 ---
 
 ## What it does
@@ -29,7 +49,7 @@ pip install -r requirements.txt
 
 ### 2. Build the corpus
 
-Pulls newsletter corpus, GitHub repos, voice essays, and **500+ Q&A lines** in your tone:
+Pulls voice essays, GitHub repos, and **500+ Q&A lines** in your tone:
 
 ```bash
 python scripts/build_shrit.py
@@ -55,20 +75,9 @@ python train.py --finetune-only
 
 ### 4. Plot training graphs
 
-Anthropic-style white theme (serif title, minimal axes, blue/cyan series):
-
 ```bash
 python scripts/plot_training.py
 ```
-
-Figures: `output/figures/`
-
-| File | Description |
-|------|-------------|
-| `loss_journey.png` | Train vs validation loss over time |
-| `loss_decrease.png` | Val loss improvement per checkpoint |
-| `perplexity.png` | Perplexity (log scale) |
-| `training_dashboard.png` | Loss + learning rate (two-panel) |
 
 ### 5. Test & chat
 
@@ -86,21 +95,21 @@ python app.py                            # → http://127.0.0.1:5050
 ShritGPT/
 ├── app.py                 # Web entrypoint
 ├── train.py               # Training entrypoint
+├── docs/images/           # README screenshots & figures
 ├── gpt/
 │   ├── model.py           # Char-level transformer
 │   ├── train.py           # Training loop + fine-tune + loss CSV
 │   ├── chat.py            # them:/me: chat wrapper
 │   └── paths.py
 ├── scripts/
-│   ├── build_shrit.py     # Corpus builder (Q&A + voice + newsletter)
+│   ├── build_shrit.py     # Corpus builder (Q&A + voice)
 │   ├── plot_training.py   # Presentation figures
 │   └── test_shritgpt.py   # Prompt smoke tests
 ├── web/
 │   ├── app.py             # Flask API + SSE stream
 │   └── static/index.html
 ├── data/
-│   ├── shrit_corpus.txt   # Newsletter source (optional)
-│   └── shrit.txt          # Built training file
+│   └── shrit.txt          # Training corpus
 ├── checkpoints/           # checkpoint.pt (local, gitignored)
 └── output/
     ├── loss_history.csv
@@ -111,13 +120,13 @@ ShritGPT/
 
 ## Training config (defaults)
 
-| Setting | Value |
-|---------|--------|
-| `block_size` | 384 |
+| Setting                         | Value       |
+| ------------------------------- | ----------- |
+| `block_size`                    | 384         |
 | `n_layer` / `n_embd` / `n_head` | 6 / 384 / 6 |
-| `max_iters` | 25,000 |
-| `finetune_iters` | 8,000 |
-| Chat `temperature` / `top_k` | 0.5 / 25 |
+| `max_iters`                     | 25,000      |
+| `finetune_iters`                | 8,000       |
+| Chat `temperature` / `top_k`    | 0.5 / 25    |
 
 Tune inference in the web UI or:
 

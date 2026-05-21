@@ -171,8 +171,11 @@
       .message {
         display: flex;
         width: 100%;
-        padding: 0.45rem 1rem;
+        padding: 0.35rem 1.25rem;
         animation: msgIn 0.3s ease both;
+      }
+      .message + .message {
+        margin-top: 0.15rem;
       }
       .message.user {
         justify-content: flex-end;
@@ -193,55 +196,53 @@
       }
 
       .message-inner {
-        width: 100%;
         max-width: 100%;
       }
       .message.user .message-inner {
         display: flex;
         justify-content: flex-end;
+        margin-left: auto;
+      }
+      .message.assistant .message-inner {
+        width: auto;
       }
 
       .content {
         flex: 0 1 auto;
         min-width: 0;
-        font-size: 0.95rem;
-        line-height: 1.55;
+        font-size: 0.92rem;
+        line-height: 1.6;
         color: var(--text);
       }
       .message.user .content {
-        max-width: min(420px, calc(100vw - 2rem));
+        max-width: min(380px, calc(100vw - 2.5rem));
       }
       .message.assistant .content {
-        max-width: min(680px, calc(100vw - 2rem));
-        width: 100%;
+        max-width: min(560px, calc(100vw - 2.5rem));
       }
 
       .bubble {
-        display: inline-block;
+        display: block;
         max-width: 100%;
-        padding: 0.65rem 1rem;
-        border-radius: 18px;
         text-align: left;
-        white-space: pre-wrap;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
+        white-space: normal;
+        overflow-wrap: anywhere;
         word-break: normal;
-        hyphens: auto;
       }
       .message.user .bubble {
-        background: #ececea;
+        background: rgba(12, 12, 12, 0.06);
         color: var(--text);
-        border-bottom-right-radius: 5px;
+        padding: 0.5rem 0.85rem;
+        border-radius: 14px;
       }
       .message.assistant .bubble {
-        background: #fff;
-        border: 1px solid #ebe9e4;
-        border-bottom-left-radius: 5px;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-        width: 100%;
-        box-sizing: border-box;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0.1rem 0;
+        color: var(--text);
       }
-          '<div class="content"><div class="bubble">thinking…</div></div>' +
+      .message.assistant.thinking .bubble {
         color: var(--muted);
         font-style: italic;
       }
@@ -364,8 +365,6 @@
         >Shrit<span>.</span></a
       >
       <div class="nav-links">
-        <a href="https://www.shrit.in/" target="_blank" rel="noopener">Home</a>
-        <a href="https://www.shrit.in/" target="_blank" rel="noopener">Work</a>
         <a class="active" href="/">ShritGPT</a>
       </div>
     </nav>
@@ -377,10 +376,10 @@
       </p>
       <p class="tagline">
         <strong>ShritGPT</strong> is a
-        <strong>4.05M-parameter</strong> character-level GPT (<code>5</code>
-        transformer blocks · <code>256</code>-dim embeddings ·
-        <code>192</code> context · <code>~99</code> char vocab) trained on
-        <strong>~920k characters</strong> from my Substack + newsletter corpus.
+        <strong>10.86M-parameter</strong> character-level GPT (<code>6</code>
+        transformer blocks · <code>384</code>-dim embeddings ·
+        <code>384</code> context · <code>~99</code> char vocab) trained on
+        <strong>~1M characters</strong> from my Substack + newsletter corpus.
         trauma dumping every week, but streamed <strong>char-by-char</strong> on
         your Mac. no API, no cloud.
       </p>
@@ -392,7 +391,10 @@
           <div class="message assistant">
             <div class="message-inner">
               <div class="content">
-                <div class="bubble">yoyo what's good. ask about hackathons startups bangalore building whatever. i'll type it out live.</div>
+                <div class="bubble">
+                  what's good — ask about hackathons, startups, building,
+                  whatever.
+                </div>
               </div>
             </div>
           </div>
@@ -407,14 +409,23 @@
               autocomplete="off"
             ></textarea>
             <button type="submit" class="send" id="sendBtn" aria-label="Send">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 19V5M5 12l7-7 7 7"/>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M12 19V5M5 12l7-7 7 7" />
               </svg>
             </button>
           </form>
           <p class="footer-note">
             runs locally ·
-            <a href="https://www.shrit.in/" target="_blank" rel="noopener">shrit.in</a>
+            <a href="https://www.shrit.in/" target="_blank" rel="noopener"
+              >shrit.in</a
+            >
           </p>
         </div>
       </div>
@@ -432,7 +443,7 @@
       }
 
       function setBubbleText(el, text) {
-        el.textContent = text.replace(/[ \t]+\n/g, "\n").replace(/\n[ \t]+/g, "\n").trim();
+        el.textContent = text.replace(/\s+/g, " ").trim();
       }
 
       function addUserMsg(text) {
@@ -440,8 +451,8 @@
         el.className = "message user";
         el.innerHTML =
           '<div class="message-inner">' +
-'<div class="content"><div class="bubble"></div></div>' +
-          '</div>';
+          '<div class="content"><div class="bubble"></div></div>' +
+          "</div>";
         setBubbleText(el.querySelector(".bubble"), text);
         chat.appendChild(el);
         scrollChat();
@@ -454,7 +465,7 @@
         el.innerHTML =
           '<div class="message-inner">' +
           '<div class="content"><div class="bubble">thinking…</div></div>' +
-          '</div>';
+          "</div>";
         chat.appendChild(el);
         scrollChat();
         return { turn: el, body: el.querySelector(".bubble") };

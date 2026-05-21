@@ -19,19 +19,46 @@ from gpt.paths import (
     TRAINING_DATA,
 )
 
-# M2 MacBook Air 8GB — larger context + model for chat Q&A
-batch_size = 6
-grad_accum_steps = 2
-block_size = 384
-max_iters = 25000
-finetune_iters = 8000
-eval_interval = 250
+# Training presets — fast (~30 min on M2) is default; use --full for best quality (~2–4 h)
+_PRESETS = {
+    "fast": {
+        "batch_size": 8,
+        "grad_accum_steps": 1,
+        "block_size": 256,
+        "max_iters": 6000,
+        "finetune_iters": 2000,
+        "eval_interval": 400,
+        "eval_iters": 25,
+        "n_embd": 256,
+        "n_head": 4,
+        "n_layer": 4,
+    },
+    "full": {
+        "batch_size": 6,
+        "grad_accum_steps": 2,
+        "block_size": 384,
+        "max_iters": 25000,
+        "finetune_iters": 8000,
+        "eval_interval": 250,
+        "eval_iters": 50,
+        "n_embd": 384,
+        "n_head": 6,
+        "n_layer": 6,
+    },
+}
+
+batch_size = 8
+grad_accum_steps = 1
+block_size = 256
+max_iters = 6000
+finetune_iters = 2000
+eval_interval = 400
 learning_rate = 3e-4
 finetune_lr = 8e-5
-eval_iters = 50
-n_embd = 384
-n_head = 6
-n_layer = 6
+eval_iters = 25
+n_embd = 256
+n_head = 4
+n_layer = 4
 dropout = 0.1
 gen_prompt = "them: who is shrit\nme: "
 max_new_tokens = 200
@@ -240,10 +267,38 @@ def plot_training_curves():
     plot_main()
 
 
+def apply_preset(name: str):
+    global batch_size, grad_accum_steps, block_size, max_iters, finetune_iters
+    global eval_interval, eval_iters, n_embd, n_head, n_layer
+    p = _PRESETS[name]
+    batch_size = p["batch_size"]
+    grad_accum_steps = p["grad_accum_steps"]
+    block_size = p["block_size"]
+    max_iters = p["max_iters"]
+    finetune_iters = p["finetune_iters"]
+    eval_interval = p["eval_interval"]
+    eval_iters = p["eval_iters"]
+    n_embd = p["n_embd"]
+    n_head = p["n_head"]
+    n_layer = p["n_layer"]
+
+
 def main():
     global temperature, top_k, max_new_tokens, gen_prompt
+    global block_size, n_embd, n_head, n_layer, dropout
 
     parser = argparse.ArgumentParser()
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument(
+        "--fast",
+        action="store_true",
+        help="~30 min on Apple Silicon (default)",
+    )
+    mode.add_argument(
+        "--full",
+        action="store_true",
+        help="Higher quality: ~11M params, 25k+8k steps (~2–4 h)",
+    )
     parser.add_argument(
         "--sample-only",
         action="store_true",
@@ -271,6 +326,8 @@ def main():
     if args.prompt is not None:
         gen_prompt = args.prompt
 
+    apply_preset("full" if args.full else "fast")
+
     text, stoi, itos, encode, decode, train_data, val_data, vocab_size = load_corpus()
 
     cfg = ModelConfig(
@@ -287,6 +344,22 @@ def main():
         if not CHECKPOINT.exists():
             raise SystemExit(f"No {CHECKPOINT} — run training first.")
         ckpt = torch.load(CHECKPOINT, map_location=device, weights_only=False)
+        ckpt_cfg = ckpt.get("config", {})
+        if ckpt_cfg:
+            block_size = ckpt_cfg["block_size"]
+            n_embd = ckpt_cfg["n_embd"]
+            n_head = ckpt_cfg["n_head"]
+            n_layer = ckpt_cfg["n_layer"]
+            dropout = ckpt_cfg.get("dropout", dropout)
+            cfg = ModelConfig(
+                block_size=block_size,
+                n_embd=n_embd,
+                n_head=n_head,
+                n_layer=n_layer,
+                dropout=dropout,
+                vocab_size=vocab_size,
+            )
+            model = build_model(cfg, device)
         model.load_state_dict(ckpt["model"])
         print(f"Loaded checkpoint (step {ckpt.get('step', '?')}, phase {ckpt.get('phase', '?')})")
         run_generation(model, decode, text, stoi, label="sample from checkpoint")
@@ -296,6 +369,22 @@ def main():
         if not CHECKPOINT.exists():
             raise SystemExit(f"No {CHECKPOINT} — run training first.")
         ckpt = torch.load(CHECKPOINT, map_location=device, weights_only=False)
+        ckpt_cfg = ckpt.get("config", {})
+        if ckpt_cfg:
+            block_size = ckpt_cfg["block_size"]
+            n_embd = ckpt_cfg["n_embd"]
+            n_head = ckpt_cfg["n_head"]
+            n_layer = ckpt_cfg["n_layer"]
+            dropout = ckpt_cfg.get("dropout", dropout)
+            cfg = ModelConfig(
+                block_size=block_size,
+                n_embd=n_embd,
+                n_head=n_head,
+                n_layer=n_layer,
+                dropout=dropout,
+                vocab_size=vocab_size,
+            )
+            model = build_model(cfg, device)
         model.load_state_dict(ckpt["model"])
         start = ckpt.get("step", 0) + 1
         optimizer = torch.optim.AdamW(model.parameters(), lr=finetune_lr)
@@ -324,9 +413,11 @@ def main():
             plot_training_curves()
         return
 
+    preset = "full" if args.full else "fast"
     print(f"{sum(p.numel() for p in model.parameters()) / 1e6:.2f}M parameters on {device}")
     print(
-        f"block_size={block_size} max_iters={max_iters} finetune_iters={finetune_iters}"
+        f"preset={preset} block_size={block_size} max_iters={max_iters} "
+        f"finetune_iters={finetune_iters} (~30 min target with --fast)"
     )
 
     init_loss_log()

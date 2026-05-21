@@ -22,6 +22,8 @@ DEFAULT_MAX_TOKENS = 180
 # training corpus has repeated "(pass N — same facts new mood)" footers; cut them off
 STOP_SEQUENCES = (
     "\nthem:",
+    "\nthem\n",
+    "\nme:",
     "\n\n##",
     "\n\n---",
     "\n(pass",
@@ -29,6 +31,8 @@ STOP_SEQUENCES = (
     "\n\nok random life dump",
     "\n\n## dump",
 )
+
+_ROLE_TAIL = re.compile(r"(\n|\s)+(them|me):?\s*$", re.IGNORECASE)
 
 
 def clean_reply(text: str) -> str:
@@ -38,6 +42,8 @@ def clean_reply(text: str) -> str:
             reply = reply.split(stop)[0]
     reply = re.sub(r"\n+#\s*$", "", reply)
     reply = re.sub(r"\(pass\s+\d+.*$", "", reply, flags=re.DOTALL)
+    reply = _ROLE_TAIL.sub("", reply)
+    reply = re.sub(r"\s+", " ", reply)
     return reply.strip()
 
 

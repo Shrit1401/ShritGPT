@@ -19,7 +19,6 @@ import requests
 from gpt.paths import DATA_DIR
 
 OUTPUT = DATA_DIR / "shrit.txt"
-CORPUS = DATA_DIR / "shrit_corpus.txt"
 MIN_CHARS = 1_000_000
 SEP = "\n\n"
 
@@ -618,18 +617,7 @@ def main() -> None:
     for i, essay in enumerate(VOICE_ESSAYS):
         chunks.append(section(f"dump #{i + 1}", essay))
 
-    # Original newsletter writing (untouched)
-    if CORPUS.exists():
-        chunks.append(CORPUS.read_text(encoding="utf-8"))
-
-    # Companion reflections for each real post
-    if CORPUS.exists():
-        posts = split_corpus_posts(CORPUS.read_text(encoding="utf-8"))
-        for title, body in posts:
-            if len(body) > 100:
-                chunks.append(build_post_reflection(title, body))
-
-    # Another full dm block after newsletter (reinforce Q&A)
+    # Another full dm block (reinforce Q&A)
     chunks.append(build_dm_answers())
 
     print("Fetching GitHub repos...")
